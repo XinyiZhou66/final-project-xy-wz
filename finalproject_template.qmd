@@ -18,3 +18,90 @@ include-before-body:
     }
 ---
 
+### 1. Data collation
+
+```{python}
+import pandas as pd
+import pandas_datareader as pdr
+import datetime
+
+gdp_path = '/Users/wuzhenhan/Desktop/final-project-xy-wz/data/GDPC1.csv'
+unemployment_path = '/Users/wuzhenhan/Desktop/final-project-xy-wz/data/Unemployment rate.csv'
+
+gdp_data = pd.read_csv(gdp_path)
+unemployment_data = pd.read_csv(unemployment_path)
+
+gdp_data['DATE'] = pd.to_datetime(gdp_data['DATE'])
+unemployment_data['DATE'] = pd.to_datetime(unemployment_data['DATE'])
+
+merged_data = pd.merge(gdp_data, unemployment_data, on='DATE', how='inner')
+
+filtered_data = merged_data[merged_data['DATE'] >= '2018-01-01']
+
+print(filtered_data.head())
+
+filtered_data.to_csv('/Users/wuzhenhan/Desktop/final-project-xy-wz/data/merged_filtered_data.csv', index=False)
+
+```
+
+
+```{python}
+from pandas_datareader import data as pdr
+import datetime
+
+start_date = datetime.datetime(2000, 1, 1)  # Replace with your desired start date
+end_date = datetime.datetime(2023, 11, 28)  # Replace with your desired end date
+
+savings_rate = pdr.DataReader('PSAVERT', 'fred', start_date, end_date)  # Household savings rate
+
+savings_rate.to_csv('/Users/wuzhenhan/Desktop/final-project-xy-wz/data/savings_rate.csv')
+
+print(savings_rate.head())
+
+
+```
+
+
+```{python}
+federal_spending = pdr.DataReader('FGEXPND', 'fred', start_date, end_date) 
+
+federal_spending.to_csv('/Users/wuzhenhan/Desktop/final-project-xy-wz/data/federal_spending.csv')
+print(federal_spending.head())
+
+```
+
+
+```{python}
+labor_force = pdr.DataReader('CIVPART', 'fred', start_date, end_date)  
+
+labor_force.to_csv('/Users/wuzhenhan/Desktop/final-project-xy-wz/data/labor_force.csv')
+print(labor_force.head())
+
+```
+
+
+```{python} 
+
+import requests
+import pandas as pd
+
+url = "https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/owid-covid-data.csv"
+save_path = "/Users/wuzhenhan/Desktop/final-project-xy-wz/data/owid-covid-data.csv"
+
+response = requests.get(url)
+if response.status_code == 200:
+    with open(save_path, 'wb') as f:
+        f.write(response.content)
+    print(f"The file was successfully downloaded and saved to: {save_path}")
+else:
+    print(f"File download failed, status code: {response.status_code}")
+
+covid_data = pd.read_csv(save_path)
+
+print(covid_data.head())
+
+us_data = covid_data[covid_data['location'] == 'United States']
+print(us_data.head())
+
+```
+
