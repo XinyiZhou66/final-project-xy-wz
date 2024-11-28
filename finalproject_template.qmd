@@ -49,10 +49,10 @@ filtered_data.to_csv('/Users/wuzhenhan/Desktop/final-project-xy-wz/data/merged_f
 from pandas_datareader import data as pdr
 import datetime
 
-start_date = datetime.datetime(2000, 1, 1)  # Replace with your desired start date
-end_date = datetime.datetime(2023, 11, 28)  # Replace with your desired end date
+start_date = datetime.datetime(2018, 1, 1)  
+end_date = datetime.datetime(2024, 11, 28)  
 
-savings_rate = pdr.DataReader('PSAVERT', 'fred', start_date, end_date)  # Household savings rate
+savings_rate = pdr.DataReader('PSAVERT', 'fred', start_date, end_date) 
 
 savings_rate.to_csv('/Users/wuzhenhan/Desktop/final-project-xy-wz/data/savings_rate.csv')
 
