@@ -1,0 +1,10 @@
+---
+title: "30538 Final Project: Reproducible Research"
+author: "XinYi Zhou and Wuzhen Han" 
+date: "today"
+format: pdf
+execute:
+  eval: false
+  echo: false
+---
+
