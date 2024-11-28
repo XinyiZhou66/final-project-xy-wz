@@ -1,6 +1,7 @@
 ---
 title: "Final Project: Reproducible Research"
 author: "Xinyi Zhou, and Wuzhen Han"
+date: 11/28/2024
 format: 
   pdf:
     include-in-header: 
