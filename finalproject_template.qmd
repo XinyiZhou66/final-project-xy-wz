@@ -47,7 +47,7 @@ merged_data.to_csv(save_path, index=False)
 import pandas as pd
 import altair as alt
 
-file_path = '/Users/wuzhenhan/Desktop/final-project-xy-wz/data/COVID19_Grant_Report.csv' 
+file_path = '/Users/cynthia/Desktop/final-project-xy-wz/data/COVID19_Grant_Report.csv' 
 data_raw = pd.read_csv(file_path, skiprows=5)
 
 original_number_of_grants = len(data_raw)
@@ -93,6 +93,7 @@ chart
 # 2. Economic Trends During COVID-19: Real GDP and Unemployment Rate (2018–2024)
 
 ```{python}
+import altair as alt
 
 gdp_chart = alt.Chart(merged_data).mark_line(color='blue').encode(
     alt.X('DATE:T', title='Date'),
