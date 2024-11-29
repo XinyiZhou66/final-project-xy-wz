@@ -450,4 +450,5 @@ print(f"Charts saved to {output_path}")
 
 
 ```
+
 # 4. Dynamic Trends of Real GDP and Unemployment Rate Under CARES Act
