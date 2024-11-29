@@ -17,31 +17,73 @@ include-before-body:
       breaklines
     }
 ---
-
-### 1. Data collation
+### Merge Data 
 
 ```{python}
-import requests
-from bs4 import BeautifulSoup
 import pandas as pd
 
-url = 'https://taxfoundation.org/blog/federal-coronavirus-aid-to-states-under-cares-act/'
-response = requests.get(url)
-soup = BeautifulSoup(response.content, 'html.parser')
+real_gdp_path = '/Users/wuzhenhan/Desktop/final-project-xy-wz/data/GDPC1.csv'
+unemployment_rate_path = '/Users/wuzhenhan/Desktop/final-project-xy-wz/data/Unemployment rate.csv'
 
-table = soup.find('table')
+real_gdp = pd.read_csv(real_gdp_path)
+unemployment_rate = pd.read_csv(unemployment_rate_path)
 
-data = []
-headers = [header.text.strip() for header in table.find_all('th')]
-for row in table.find_all('tr')[1:]:
-    cells = row.find_all('td')
-    data.append([cell.text.strip() for cell in cells])
+real_gdp['DATE'] = pd.to_datetime(real_gdp['DATE'])
+unemployment_rate['DATE'] = pd.to_datetime(unemployment_rate['DATE'])
 
-df = pd.DataFrame(data, columns=headers)
+merged_data = pd.merge(real_gdp, unemployment_rate, on='DATE', how='left')
 
-save_path = '/Users/wuzhenhan/Desktop/final-project-xy-wz/data/cares_act_funding.csv'
-df.to_csv(save_path, index=False)
+save_path = '/Users/wuzhenhan/Desktop/final-project-xy-wz/data/merged_data.csv'
+merged_data.to_csv(save_path, index=False)
 
-print(f"Data was successfully saved to {save_path}")
+print(f"The merger is complete! Data has been saved to: {save_path}")
+
+```
+
+### Data Preprocessing and Static graph
+
+# 1.Bar chart of state-level CARES Act funding distribution
+
+```{python}
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+file_path = '/Users/wuzhenhan/Desktop/final-project-xy-wz/data/COVID19_Grant_Report.csv' 
+data_raw = pd.read_csv(file_path, skiprows=5)
+
+original_number_of_grants = len(data_raw)
+print(f"Original Number of Grants: {original_number_of_grants}")
+
+data_raw['Award Funding'] = data_raw['Award Funding'].replace(r'[$,]', '', regex=True).astype(float)
+
+converted_number_of_grants = len(data_raw)
+print(f"Number of Grants after 'Award Funding' conversion: {converted_number_of_grants}")
+
+data_cleaned = data_raw.dropna(subset=['State', 'Award Funding'])
+
+cleaned_number_of_grants = len(data_cleaned)
+print(f"Number of Grants after dropping NaNs: {cleaned_number_of_grants}")
+
+total_funding_dollars = data_cleaned['Award Funding'].sum()
+print(f"Total Award Funding for all grants (Dollars): {total_funding_dollars:,.0f}")
+
+state_funding = data_cleaned.groupby('State')['Award Funding'].sum().reset_index()
+
+state_funding['Award Funding'] = state_funding['Award Funding'] / 1e6  # 单位为百万美元 ($M)
+
+state_funding = state_funding.sort_values(by='Award Funding', ascending=False).reset_index(drop=True)
+
+plt.figure(figsize=(14, 10))
+plt.bar(state_funding['State'], state_funding['Award Funding'], color='skyblue')
+plt.xlabel('State')
+plt.ylabel('Total Award Funding (Millions $)')
+plt.title('Total Funding Amount by State')
+plt.xticks(rotation=90)
+plt.tight_layout()
+plt.show()
+
+print("Top 3 states with the highest funding (in millions):")
+print(state_funding.head(3))
 
 ```
