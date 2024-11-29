@@ -45,10 +45,9 @@ merged_data.to_csv(save_path, index=False)
 ```{python}
 
 import pandas as pd
-import matplotlib.pyplot as plt
 import altair as alt
 
-file_path = '/Users/wuzhenhan/Desktop/final-project-xy-wz/data/COVID19_Grant_Report.csv' 
+file_path = '/Users/cynthia/Desktop/final-project-xy-wz/data/COVID19_Grant_Report.csv' 
 data_raw = pd.read_csv(file_path, skiprows=5)
 
 original_number_of_grants = len(data_raw)
@@ -60,30 +59,33 @@ converted_number_of_grants = len(data_raw)
 print(f"Number of Grants after 'Award Funding' conversion: {converted_number_of_grants}")
 
 data_cleaned = data_raw.dropna(subset=['State', 'Award Funding'])
-
-cleaned_number_of_grants = len(data_cleaned)
-print(f"Number of Grants after dropping NaNs: {cleaned_number_of_grants}")
+print(f"Number of Grants after dropping NaNs: {len(data_cleaned)}")
 
 total_funding_dollars = data_cleaned['Award Funding'].sum()
 print(f"Total Award Funding for all grants (Dollars): {total_funding_dollars:,.0f}")
 
 state_funding = data_cleaned.groupby('State')['Award Funding'].sum().reset_index()
 
-state_funding['Award Funding'] = state_funding['Award Funding'] / 1e6  # 单位为百万美元 ($M)
+state_funding['Award Funding'] = state_funding['Award Funding'] / 1e6  
 
 state_funding = state_funding.sort_values(by='Award Funding', ascending=False).reset_index(drop=True)
 
-plt.figure(figsize=(14, 10))
-plt.bar(state_funding['State'], state_funding['Award Funding'], color='skyblue')
-plt.xlabel('State')
-plt.ylabel('Total Award Funding (Millions $)')
-plt.title('Total Funding Amount by State')
-plt.xticks(rotation=90)
-plt.tight_layout()
-plt.show()
+chart = alt.Chart(state_funding).mark_bar(color='skyblue').encode(
+    y=alt.Y('State:N', sort='-x', title='State'),
+    x=alt.X('Award Funding:Q', title='Total Award Funding (Millions $)'),
+    tooltip=['State', 'Award Funding']
+).properties(
+    title='Total Funding Amount by State',
+    width=600,
+    height=500
+).configure_axis(
+    labelAngle=0
+)
 
 print("Top 3 states with the highest funding (in millions):")
 print(state_funding.head(3))
+
+chart
 
 ```
  
@@ -91,6 +93,7 @@ print(state_funding.head(3))
 # 2. Economic Trends During COVID-19: Real GDP and Unemployment Rate (2018–2024)
 
 ```{python}
+import altair as alt
 
 gdp_chart = alt.Chart(merged_data).mark_line(color='blue').encode(
     alt.X('DATE:T', title='Date'),
@@ -117,6 +120,336 @@ chart.show()
 
 ```
 
+
+
+
 # 3. State-Level Unemployment Rate: Dynamic Heatmap by Time
+
+## getting data
+# Download the required unemployment rate documentation（https://dlt.ri.gov/media/15101/download?language=en）.It is then processed manually to extract key information from the file, such as the year, state name, etc
+
+# a. Create static maps of unemployment rates by state
+
+# 2024
+
+```{python}
+import pandas as pd
+import altair as alt
+import geopandas as gpd
+import json
+from vega_datasets import data
+
+file_path = '/Users/wuzhenhan/Desktop/final-project-xy-wz/data/anunemp.csv'
+unemployment_data = pd.read_csv(file_path)
+
+unemployment_data_filtered = unemployment_data.loc[unemployment_data['State'] != "United States"].copy()
+unemployment_data_filtered['State'] = unemployment_data_filtered['State'].str.strip().str.title()
+
+shapefile_path = '/Users/wuzhenhan/Desktop/final-project-xy-wz/cb_2018_us_state_500k/cb_2018_us_state_500k.shp'
+gdf_states = gpd.read_file(shapefile_path)
+
+gdf_states['NAME'] = gdf_states['NAME'].str.strip().str.title()
+
+gdf_merged = gdf_states.merge(
+    unemployment_data_filtered, how='left', left_on='NAME', right_on='State'
+)
+gdf_merged['Rate_2024'] = gdf_merged['Rate_2024'].fillna(0)
+
+geojson = gdf_merged.to_json()
+geojson_data = json.loads(geojson)
+
+states = alt.Data(values=geojson_data['features'])
+
+unemployment_chart = alt.Chart(states).mark_geoshape(
+    stroke='black',
+    strokeWidth=1
+).encode(
+    color=alt.Color('properties.Rate_2024:Q', 
+                    scale=alt.Scale(domain=[0, 10], scheme='orangered'),
+                    title='Unemployment Rate in 2024 (%)'),
+    tooltip=[
+        alt.Tooltip('properties.NAME:N', title='State'),
+        alt.Tooltip('properties.Rate_2024:Q', title='Unemployment Rate (%)')
+    ]
+).project(
+    type='albersUsa'
+).properties(
+    width=500,
+    height=500,
+    title='Unemployment Rate by State (2024)'
+)
+
+unemployment_chart.display()
+
+top_3_states = gdf_merged.nlargest(3, 'Rate_2024')[['NAME', 'Rate_2024']]
+print(top_3_states)
+
+```
+
+# 2023
+```{python}
+
+gdf_merged_2023 = gdf_states.merge(
+    unemployment_data_filtered, how='left', left_on='NAME', right_on='State'
+)
+gdf_merged_2023['Rate_2023'] = gdf_merged_2023['Rate_2023'].fillna(0)
+
+geojson = gdf_merged_2023.to_json()
+geojson_data = json.loads(geojson)
+
+states = alt.Data(values=geojson_data['features'])
+
+unemployment_chart_2023 = alt.Chart(states).mark_geoshape(
+    stroke='black',
+    strokeWidth=1
+).encode(
+    color=alt.Color('properties.Rate_2023:Q', 
+                    scale=alt.Scale(domain=[0, 10], scheme='orangered'),
+                    title='Unemployment Rate in 2023 (%)'),
+    tooltip=[
+        alt.Tooltip('properties.NAME:N', title='State'),
+        alt.Tooltip('properties.Rate_2023:Q', title='Unemployment Rate (%)')
+    ]
+).project(
+    type='albersUsa'  
+).properties(
+    width=500,
+    height=500,
+    title='Unemployment Rate by State (2023)'
+)
+
+unemployment_chart_2023.display()
+
+top_3_states_2023 = gdf_merged_2023.nlargest(3, 'Rate_2023')[['NAME', 'Rate_2023']]
+print(top_3_states_2023)
+
+```
+
+# 2022
+
+```{python}
+
+gdf_merged_2022 = gdf_states.merge(
+    unemployment_data_filtered, how='left', left_on='NAME', right_on='State'
+)
+gdf_merged_2022['Rate_2022'] = gdf_merged_2022['Rate_2022'].fillna(0)
+
+geojson_2022 = gdf_merged_2022.to_json()
+geojson_data_2022 = json.loads(geojson_2022)
+
+states_2022 = alt.Data(values=geojson_data_2022['features'])
+
+unemployment_chart_2022 = alt.Chart(states_2022).mark_geoshape(
+    stroke='black',
+    strokeWidth=1
+).encode(
+    color=alt.Color('properties.Rate_2022:Q', 
+                    scale=alt.Scale(domain=[0, 10], scheme='orangered'),
+                    title='Unemployment Rate in 2022 (%)'),
+    tooltip=[
+        alt.Tooltip('properties.NAME:N', title='State'),
+        alt.Tooltip('properties.Rate_2022:Q', title='Unemployment Rate (%)')
+    ]
+).project(
+    type='albersUsa'  
+).properties(
+    width=500,
+    height=500,
+    title='Unemployment Rate by State (2022)'
+)
+
+unemployment_chart_2022.display()
+
+top_3_states_2022 = gdf_merged_2022.nlargest(3, 'Rate_2022')[['NAME', 'Rate_2022']]
+print(top_3_states_2022)
+
+
+```
+
+# 2021
+
+```{python}
+
+gdf_merged_2021 = gdf_states.merge(unemployment_data_filtered, how='left', left_on='NAME', right_on='State')
+gdf_merged_2021['Rate_2021'] = gdf_merged_2021['Rate_2021'].fillna(0)
+
+geojson_2021 = gdf_merged_2021.to_json()
+geojson_data_2021 = json.loads(geojson_2021)
+
+states_2021 = alt.Data(values=geojson_data_2021['features'])
+
+unemployment_chart_2021 = alt.Chart(states_2021).mark_geoshape(
+    stroke='black',
+    strokeWidth=1
+).encode(
+    color=alt.Color('properties.Rate_2021:Q', 
+                    scale=alt.Scale(domain=[0, 10], scheme='orangered'),
+                    title='Unemployment Rate in 2021 (%)'),
+    tooltip=[
+        alt.Tooltip('properties.NAME:N', title='State'),
+        alt.Tooltip('properties.Rate_2021:Q', title='Unemployment Rate (%)')
+    ]
+).project(
+    type='albersUsa'
+).properties(
+    width=500,
+    height=500,
+    title='Unemployment Rate by State (2021)'
+)
+
+unemployment_chart_2021.display()
+
+top_3_states_2021 = gdf_merged_2021.nlargest(3, 'Rate_2021')[['NAME', 'Rate_2021']]
+print(top_3_states_2021)
+
+```
+
+# 2020，2019，2018
+
+```{python}
+
+gdf_merged_2020 = gdf_states.merge(unemployment_data_filtered, how='left', left_on='NAME', right_on='State').copy()
+gdf_merged_2020['Rate_2020'] = gdf_merged_2020['Rate_2020'].fillna(0)
+
+geojson_2020 = gdf_merged_2020.to_json()
+geojson_data_2020 = json.loads(geojson_2020)
+
+states_2020 = alt.Data(values=geojson_data_2020['features'])
+
+unemployment_chart_2020 = alt.Chart(states_2020).mark_geoshape(
+    stroke='black',
+    strokeWidth=1
+).encode(
+    color=alt.Color('properties.Rate_2020:Q',
+                    scale=alt.Scale(domain=[0, 10], scheme='orangered'),
+                    title='Unemployment Rate in 2020 (%)'),
+    tooltip=[
+        alt.Tooltip('properties.NAME:N', title='State'),
+        alt.Tooltip('properties.Rate_2020:Q', title='Unemployment Rate (%)')
+    ]
+).project(
+    type='albersUsa'
+).properties(
+    width=500,
+    height=500,
+    title='Unemployment Rate by State (2020)'
+)
+
+unemployment_chart_2020.display()
+
+top_3_states_2020 = gdf_merged_2020.nlargest(3, 'Rate_2020')[['NAME', 'Rate_2020']]
+print(top_3_states_2020)
+
+gdf_merged_2019 = gdf_states.merge(unemployment_data_filtered, how='left', left_on='NAME', right_on='State').copy()
+gdf_merged_2019['Rate_2019'] = gdf_merged_2019['Rate_2019'].fillna(0)
+
+geojson_2019 = gdf_merged_2019.to_json()
+geojson_data_2019 = json.loads(geojson_2019)
+
+states_2019 = alt.Data(values=geojson_data_2019['features'])
+
+unemployment_chart_2019 = alt.Chart(states_2019).mark_geoshape(
+    stroke='black',
+    strokeWidth=1
+).encode(
+    color=alt.Color('properties.Rate_2019:Q',
+                    scale=alt.Scale(domain=[0, 10], scheme='orangered'),
+                    title='Unemployment Rate in 2019 (%)'),
+    tooltip=[
+        alt.Tooltip('properties.NAME:N', title='State'),
+        alt.Tooltip('properties.Rate_2019:Q', title='Unemployment Rate (%)')
+    ]
+).project(
+    type='albersUsa'
+).properties(
+    width=500,
+    height=500,
+    title='Unemployment Rate by State (2019)'
+)
+
+unemployment_chart_2019.display()
+
+top_3_states_2019 = gdf_merged_2019.nlargest(3, 'Rate_2019')[['NAME', 'Rate_2019']]
+print(top_3_states_2019)
+
+gdf_merged_2018 = gdf_states.merge(unemployment_data_filtered, how='left', left_on='NAME', right_on='State').copy()
+gdf_merged_2018['Rate_2018'] = gdf_merged_2018['Rate_2018'].fillna(0)
+
+geojson_2018 = gdf_merged_2018.to_json()
+geojson_data_2018 = json.loads(geojson_2018)
+
+states_2018 = alt.Data(values=geojson_data_2018['features'])
+
+unemployment_chart_2018 = alt.Chart(states_2018).mark_geoshape(
+    stroke='black',
+    strokeWidth=1
+).encode(
+    color=alt.Color('properties.Rate_2018:Q',
+                    scale=alt.Scale(domain=[0, 10], scheme='orangered'),
+                    title='Unemployment Rate in 2018 (%)'),
+    tooltip=[
+        alt.Tooltip('properties.NAME:N', title='State'),
+        alt.Tooltip('properties.Rate_2018:Q', title='Unemployment Rate (%)')
+    ]
+).project(
+    type='albersUsa'
+).properties(
+    width=500,
+    height=500,
+    title='Unemployment Rate by State (2018)'
+)
+
+unemployment_chart_2018.display()
+
+top_3_states_2018 = gdf_merged_2018.nlargest(3, 'Rate_2018')[['NAME', 'Rate_2018']]
+print(top_3_states_2018)
+
+```
+
+```{python}
+
+gdf_merged_2024 = gdf_states.merge(unemployment_data_filtered, how='left', left_on='NAME', right_on='State').copy()
+gdf_merged_2024['Rate_2024'] = gdf_merged_2024['Rate_2024'].fillna(0)
+
+geojson_2024 = gdf_merged_2024.to_json()
+geojson_data_2024 = json.loads(geojson_2024)
+
+states_2024 = alt.Data(values=geojson_data_2024['features'])
+
+unemployment_chart_2024 = alt.Chart(states_2024).mark_geoshape(
+    stroke='black',
+    strokeWidth=1
+).encode(
+    color=alt.Color('properties.Rate_2024:Q',
+                    scale=alt.Scale(domain=[0, 10], scheme='orangered'),
+                    title='Unemployment Rate in 2024 (%)'),
+    tooltip=[
+        alt.Tooltip('properties.NAME:N', title='State'),
+        alt.Tooltip('properties.Rate_2024:Q', title='Unemployment Rate (%)')
+    ]
+).project(
+    type='albersUsa'
+).properties(
+    width=500,
+    height=500,
+    title='Unemployment Rate by State (2024)'
+)
+
+output_path = '/Users/wuzhenhan/Desktop/final-project-xy-wz/picture'
+
+os.makedirs(output_path, exist_ok=True)
+
+unemployment_chart_2018.save(os.path.join(output_path, 'unemployment_rate_2018.html'))
+unemployment_chart_2019.save(os.path.join(output_path, 'unemployment_rate_2019.html'))
+unemployment_chart_2020.save(os.path.join(output_path, 'unemployment_rate_2020.html'))
+unemployment_chart_2021.save(os.path.join(output_path, 'unemployment_rate_2021.html'))
+unemployment_chart_2022.save(os.path.join(output_path, 'unemployment_rate_2022.html'))
+unemployment_chart_2023.save(os.path.join(output_path, 'unemployment_rate_2023.html'))
+unemployment_chart_2024.save(os.path.join(output_path, 'unemployment_rate_2024.html'))
+
+print(f"Charts saved to {output_path}")
+
+
+```
 
 # 4. Dynamic Trends of Real GDP and Unemployment Rate Under CARES Act
