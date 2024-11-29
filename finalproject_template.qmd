@@ -22,8 +22,8 @@ include-before-body:
 ```{python}
 import pandas as pd
 
-real_gdp_path = '/Users/wuzhenhan/Desktop/final-project-xy-wz/data/GDPC1.csv'
-unemployment_rate_path = '/Users/wuzhenhan/Desktop/final-project-xy-wz/data/Unemployment rate.csv'
+real_gdp_path = '/Users/cynthia/Desktop/final-project-xy-wz/data/Real_GDP.csv'
+unemployment_rate_path = '/Users/cynthia/Desktop/final-project-xy-wz/data/Unemployment_rate.csv'
 
 real_gdp = pd.read_csv(real_gdp_path)
 unemployment_rate = pd.read_csv(unemployment_rate_path)
@@ -33,10 +33,8 @@ unemployment_rate['DATE'] = pd.to_datetime(unemployment_rate['DATE'])
 
 merged_data = pd.merge(real_gdp, unemployment_rate, on='DATE', how='left')
 
-save_path = '/Users/wuzhenhan/Desktop/final-project-xy-wz/data/merged_data.csv'
+save_path = '/Users/cynthia/Desktop/final-project-xy-wz/data/merged_data.csv'
 merged_data.to_csv(save_path, index=False)
-
-print(f"The merger is complete! Data has been saved to: {save_path}")
 
 ```
 
@@ -48,6 +46,7 @@ print(f"The merger is complete! Data has been saved to: {save_path}")
 
 import pandas as pd
 import matplotlib.pyplot as plt
+import altair as alt
 
 file_path = '/Users/wuzhenhan/Desktop/final-project-xy-wz/data/COVID19_Grant_Report.csv' 
 data_raw = pd.read_csv(file_path, skiprows=5)
@@ -87,3 +86,37 @@ print("Top 3 states with the highest funding (in millions):")
 print(state_funding.head(3))
 
 ```
+ 
+
+# 2. Economic Trends During COVID-19: Real GDP and Unemployment Rate (2018–2024)
+
+```{python}
+
+gdp_chart = alt.Chart(merged_data).mark_line(color='blue').encode(
+    alt.X('DATE:T', title='Date'),
+    alt.Y('GDPC1:Q', title='Real GDP (Billion $)', scale=alt.Scale(domain=[merged_data['GDPC1'].min(), merged_data['GDPC1'].max()]))
+)
+
+unrate_chart = alt.Chart(merged_data).mark_line(color='orange').encode(
+    alt.X('DATE:T', title='Date'),
+    alt.Y('UNRATE:Q', title='Unemployment Rate (%)', scale=alt.Scale(domain=[0, merged_data['UNRATE'].max()]))
+).properties(
+    title="Time Trends: Real GDP and Unemployment Rate (2018–2024)"
+)
+
+chart = alt.layer(
+    gdp_chart, unrate_chart
+).resolve_scale(
+    y='independent' 
+).properties(
+    width=800,
+    height=400
+)
+
+chart.show()
+
+```
+
+# 3. State-Level Unemployment Rate: Dynamic Heatmap by Time
+
+# 4. Dynamic Trends of Real GDP and Unemployment Rate Under CARES Act
