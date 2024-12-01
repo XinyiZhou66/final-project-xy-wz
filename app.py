@@ -4,17 +4,17 @@ import geopandas as gpd
 import matplotlib.pyplot as plt
 from shiny import App, ui, render
 
-file_path_unemployment = '/Users/cynthia/Desktop/final-project-xy-wz/data/anunemp.csv'
+file_path_unemployment = '/Users/wuzhenhan/Desktop/final-project-xy-wz/data/anunemp.csv'
 unemployment_data = pd.read_csv(file_path_unemployment)
 
 unemployment_data_filtered = unemployment_data.loc[unemployment_data['State'] != "United States"].copy()
 unemployment_data_filtered['State'] = unemployment_data_filtered['State'].str.strip().str.title()
 
-shapefile_path = '/Users/cynthia/Desktop/final-project-xy-wz/cb_2018_us_state_500k/cb_2018_us_state_500k.shp'
+shapefile_path = '/Users/wuzhenhan/Desktop/final-project-xy-wz/cb_2018_us_state_500k/cb_2018_us_state_500k.shp'
 gdf_states = gpd.read_file(shapefile_path)
 gdf_states['NAME'] = gdf_states['NAME'].str.strip().str.title()
 
-file_path_gdp_unemployment = '/Users/cynthia/Desktop/final-project-xy-wz/data/merged_data.csv'
+file_path_gdp_unemployment = '/Users/wuzhenhan/Desktop/final-project-xy-wz/data/merged_data.csv'
 data = pd.read_csv(file_path_gdp_unemployment, parse_dates=['DATE'])
 
 app_ui = ui.page_fluid(
