@@ -487,6 +487,40 @@ print(f"Charts saved to {output_path}")
 
 # b. Create the dynamic maps of unemployment rates by state in app.py file
 
+```{python}
+import matplotlib.pyplot as plt
+import matplotlib.image as mpimg
+
+image_path = "/Users/wuzhenhan/Desktop/final-project-xy-wz/picture/dynamic_1/p1.png"
+
+img = mpimg.imread(image_path)
+plt.imshow(img)
+plt.axis('off')
+plt.show()
+```
+
+```{python}
+
+image_path = "/Users/wuzhenhan/Desktop/final-project-xy-wz/picture/dynamic_1/p2.png"
+
+img = mpimg.imread(image_path)
+plt.imshow(img)
+plt.axis('off')
+plt.show()
+
+```
+
+```{python}
+
+image_path = "/Users/wuzhenhan/Desktop/final-project-xy-wz/picture/dynamic_1/p3.png"
+
+img = mpimg.imread(image_path)
+plt.imshow(img)
+plt.axis('off')
+plt.show()
+
+```
+
 # 4. Dynamic Trends of Real GDP and Unemployment Rate Under CARES Act 
 
 ```{python}
