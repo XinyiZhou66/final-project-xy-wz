@@ -240,7 +240,7 @@
 \CommentTok{\# Merge the datasets on the DATE column, keeping all rows from real\_gdp left join}
 \NormalTok{merged\_data }\OperatorTok{=}\NormalTok{ pd.merge(real\_gdp, unemployment\_rate, on}\OperatorTok{=}\StringTok{\textquotesingle{}DATE\textquotesingle{}}\NormalTok{, how}\OperatorTok{=}\StringTok{\textquotesingle{}left\textquotesingle{}}\NormalTok{)}
 
-\NormalTok{save\_path }\OperatorTok{=} \StringTok{\textquotesingle{}merged\_data.csv\textquotesingle{}}
+\NormalTok{save\_path }\OperatorTok{=}\NormalTok{ os.path.join(data\_path, }\StringTok{\textquotesingle{}merged\_data.csv\textquotesingle{}}\NormalTok{)}
 \NormalTok{merged\_data.to\_csv(save\_path, index}\OperatorTok{=}\VariableTok{False}\NormalTok{)}
 \end{Highlighting}
 \end{Shaded}
