@@ -24,6 +24,7 @@ import pandas as pd
 import altair as alt
 import geopandas as gpd
 import json
+import os
 from vega_datasets import data
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
@@ -33,9 +34,9 @@ import matplotlib.image as mpimg
 ### Merge Data 
 
 ```{python}
-
-real_gdp_path = '/Users/wuzhenhan/Desktop/final-project-xy-wz/data/Real_GDP.csv'
-unemployment_rate_path = '/Users/wuzhenhan/Desktop/final-project-xy-wz/data/Unemployment_rate.csv'
+data_path = '/Users/cynthia/Desktop/final-project-xy-wz/data'
+real_gdp_path = os.path.join(data_path, 'Real_GDP.csv')
+unemployment_rate_path = os.path.join(data_path, 'Unemployment_rate.csv')
 
 real_gdp = pd.read_csv(real_gdp_path)
 unemployment_rate = pd.read_csv(unemployment_rate_path)
@@ -46,7 +47,7 @@ unemployment_rate['DATE'] = pd.to_datetime(unemployment_rate['DATE'])
 # Merge the datasets on the DATE column, keeping all rows from real_gdp left join
 merged_data = pd.merge(real_gdp, unemployment_rate, on='DATE', how='left')
 
-save_path = '/Users/wuzhenhan/Desktop/final-project-xy-wz/data/merged_data.csv'
+save_path = 'merged_data.csv'
 merged_data.to_csv(save_path, index=False)
 
 ```
@@ -56,8 +57,8 @@ merged_data.to_csv(save_path, index=False)
 # 1.Bar chart of state-level CARES Act funding distribution
 
 ```{python}
-file_path = '/Users/wuzhenhan/Desktop/final-project-xy-wz/data/COVID19_Grant_Report.csv'
-data_raw = pd.read_csv(file_path, skiprows=5)
+covid_report_path = os.path.join(data_path, 'COVID19_Grant_Report.csv')
+data_raw = pd.read_csv(covid_report_path, skiprows=5)
 
 original_number_of_grants = len(data_raw)
 print(f"Original Number of Grants: {original_number_of_grants}")
@@ -154,15 +155,16 @@ chart.show()
 
 ```{python}
 
-file_path = '/Users/wuzhenhan/Desktop/final-project-xy-wz/data/anunemp.csv'
-unemployment_data = pd.read_csv(file_path)
+unemp_state = os.path.join(output_path, 'anunemp.csv')
+unemployment_data = pd.read_csv(unemp_state)
 
 unemployment_data_filtered = unemployment_data.loc[unemployment_data['State'] != "United States"].copy(
 )
 unemployment_data_filtered['State'] = unemployment_data_filtered['State'].str.strip(
 ).str.title()
 
-shapefile_path = '/Users/wuzhenhan/Desktop/final-project-xy-wz/cb_2018_us_state_500k/cb_2018_us_state_500k.shp'
+data_path_shp = '/Users/cynthia/Desktop/final-project-xy-wz/cb_2018_us_state_500k'
+shapefile_path = os.path.join(data_path_shp, 'cb_2018_us_state_500k.shp')
 gdf_states = gpd.read_file(shapefile_path)
 
 gdf_states['NAME'] = gdf_states['NAME'].str.strip().str.title()
@@ -462,8 +464,7 @@ unemployment_chart_2024 = alt.Chart(states_2024).mark_geoshape(
     title='Unemployment Rate by State (2024)'
 )
 
-output_path = '/Users/wuzhenhan/Desktop/final-project-xy-wz/picture/dynamic_1'
-
+output_path = '/Users/cynthia/Desktop/final-project-xy-wz/picture/dynamic_1'
 os.makedirs(output_path, exist_ok=True)
 
 unemployment_chart_2018.save(os.path.join(
@@ -481,31 +482,29 @@ unemployment_chart_2023.save(os.path.join(
 unemployment_chart_2024.save(os.path.join(
     output_path, 'unemployment_rate_2024.html'))
 
-print(f"Charts saved to {output_path}")
-
 
 ```
 
 # b. Create the dynamic maps of unemployment rates by state in app.py file
 
 ```{python}
-import matplotlib.pyplot as plt
-import matplotlib.image as mpimg
 
-image_path = "/Users/wuzhenhan/Desktop/final-project-xy-wz/picture/dynamic_1/p1.png"
+dynamic_1_path = '/Users/cynthia/Desktop/final-project-xy-wz/picture/dynamic_1'
 
-img = mpimg.imread(image_path)
-plt.imshow(img)
+image_path_1 = os.path.join(dynamic_1_path, 'p1.png')
+
+img_1 = mpimg.imread(image_path_1)
+plt.imshow(img_1)
 plt.axis('off')
 plt.show()
 ```
 
 ```{python}
 
-image_path = "/Users/wuzhenhan/Desktop/final-project-xy-wz/picture/dynamic_1/p2.png"
+image_path_2 = os.path.join(dynamic_1_path, 'p2.png')
 
-img = mpimg.imread(image_path)
-plt.imshow(img)
+img_2 = mpimg.imread(image_path_2)
+plt.imshow(img_2)
 plt.axis('off')
 plt.show()
 
@@ -513,24 +512,27 @@ plt.show()
 
 ```{python}
 
-image_path = "/Users/wuzhenhan/Desktop/final-project-xy-wz/picture/dynamic_1/p3.png"
+image_path_3 = os.path.join(dynamic_1_path, 'p3.png')
 
-img = mpimg.imread(image_path)
-plt.imshow(img)
+img_3 = mpimg.imread(image_path_3)
+plt.imshow(img_3)
 plt.axis('off')
 plt.show()
 
 ```
 
+>>>>>>> xyz
 # 4. Dynamic Trends of Real GDP and Unemployment Rate Under CARES Act 
 
 ```{python}
 # For a detailed view of how these figures were generated, please refer to the code in app.py. The dynamic trends presented here are the final output of our detailed data processing and visualization pipeline. 
 
-screenshot_path_1 = "/Users/wuzhenhan/Desktop/final-project-xy-wz/picture/dynamic_2/All_period.png"
-screenshot_path_2 = "/Users/wuzhenhan/Desktop/final-project-xy-wz/picture/dynamic_2/Pre_Cares.png"
-screenshot_path_3 = "/Users/wuzhenhan/Desktop/final-project-xy-wz/picture/dynamic_2/Implementation_period.png"
-screenshot_path_4 = "/Users/wuzhenhan/Desktop/final-project-xy-wz/picture/dynamic_2/After_ Implementation.png"
+dynamic_2_path = '/Users/cynthia/Desktop/final-project-xy-wz/picture/dynamic_2'
+
+screenshot_path_1 = os.path.join(dynamic_2_path, 'All_period.png')
+screenshot_path_2 = os.path.join(dynamic_2_path, 'Pre_Cares.png')
+screenshot_path_3 = os.path.join(dynamic_2_path, 'Implementation_period.png')
+screenshot_path_4 = os.path.join(dynamic_2_path, 'After_Implementation.png') 
 
 
 def show_image(image_path, figsize=(10, 8)):
