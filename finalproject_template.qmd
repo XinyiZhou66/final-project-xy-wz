@@ -3,7 +3,7 @@ title: "Final Project: Reproducible Research"
 author: "Xinyi Zhou, and Wuzhen Han"
 date: 11/28/2024
 format: 
-  hdmi:
+  pdf:
     include-in-header: 
        text: |
          \usepackage{fvextra}
@@ -47,7 +47,7 @@ unemployment_rate['DATE'] = pd.to_datetime(unemployment_rate['DATE'])
 # Merge the datasets on the DATE column, keeping all rows from real_gdp left join
 merged_data = pd.merge(real_gdp, unemployment_rate, on='DATE', how='left')
 
-save_path = 'merged_data.csv'
+save_path = os.path.join(data_path, 'merged_data.csv')
 merged_data.to_csv(save_path, index=False)
 
 ```
@@ -155,7 +155,7 @@ chart.show()
 
 ```{python}
 
-unemp_state = os.path.join(output_path, 'anunemp.csv')
+unemp_state = os.path.join(data_path, 'anunemp.csv')
 unemployment_data = pd.read_csv(unemp_state)
 
 unemployment_data_filtered = unemployment_data.loc[unemployment_data['State'] != "United States"].copy(
