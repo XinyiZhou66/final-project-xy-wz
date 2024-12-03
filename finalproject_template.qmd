@@ -151,8 +151,8 @@ chart = alt.Chart(state_funding).mark_bar(color='skyblue').encode(
     tooltip=['State', 'Award Funding']
 ).properties(
     title='Total Funding Amount by State',
-    width=400,
-    height=300
+    width=600,
+    height=500
 ).configure_axis(
     labelAngle=0
 )
@@ -168,6 +168,9 @@ chart
 # 2. Economic Trends During COVID-19: Real GDP and Unemployment Rate (2018–2024)
 
 ```{python}
+import pandas as pd
+import altair as alt
+
 # Create a line chart for Real GDP
 gdp_chart = alt.Chart(merged_data).mark_line(color='blue').encode(
     alt.X('DATE:T', title='Date', axis=alt.Axis(format='%Y/%m/%d', grid=False)),
@@ -178,23 +181,42 @@ gdp_chart = alt.Chart(merged_data).mark_line(color='blue').encode(
 # Create a line chart for Unemployment Rate
 unrate_chart = alt.Chart(merged_data).mark_line(color='orange').encode(
     alt.X('DATE:T', title='Date', axis=alt.Axis(format='%Y/%m/%d', grid=False)),
-    alt.Y('UNRATE:Q', title='Unemployment Rate (%)', axis=alt.Axis(
-        grid=False), scale=alt.Scale(domain=[0, merged_data['UNRATE'].max()]))
+    alt.Y('UNRATE:Q', title='Unemployment Rate (%)', axis=alt.Axis(grid=False),
+          scale=alt.Scale(domain=[0, merged_data['UNRATE'].max()]))
 ).properties(
     title="Time Trends: Real GDP and Unemployment Rate (2018–2024)"
 )
 
-# Layer both charts together and resolve independent y-scales
+# Add a dashed vertical line on March 27, 2020 (CARES Act implementation date)
+vertical_line = alt.Chart(pd.DataFrame({'DATE': ['2020-03-27']})).mark_rule(
+    color='red', strokeDash=[6, 3], strokeWidth=2
+).encode(
+    x=alt.X('DATE:T')
+)
+
+# Add text label for CARES Act
+text_label = alt.Chart(pd.DataFrame({'DATE': ['2020-03-27'], 'label': ['CARES Act Begins: 2020-03-27']})).mark_text(
+    align='left',
+    baseline='middle',
+    dx=5, 
+    dy=-190,  
+    color='red'
+).encode(
+    x=alt.X('DATE:T'),
+    text='label'
+)
+
 chart = alt.layer(
-    gdp_chart, unrate_chart
+    gdp_chart, unrate_chart, vertical_line, text_label
 ).resolve_scale(
     y='independent'
 ).properties(
-    width=400,
-    height=300
+    width=550,
+    height=400
 )
 
 chart.show()
+
 
 ```
 
@@ -524,6 +546,7 @@ dynamic_1_path = '/Users/cynthia/Desktop/final-project-xy-wz/picture/dynamic_1'
 image_path_1 = os.path.join(dynamic_1_path, 'p1.png')
 
 img_1 = mpimg.imread(image_path_1)
+plt.figure(figsize=(10, 8)) 
 plt.imshow(img_1)
 plt.axis('off')
 plt.show()
@@ -534,6 +557,7 @@ plt.show()
 image_path_2 = os.path.join(dynamic_1_path, 'p2.png')
 
 img_2 = mpimg.imread(image_path_2)
+plt.figure(figsize=(10, 8))
 plt.imshow(img_2)
 plt.axis('off')
 plt.show()
@@ -545,6 +569,7 @@ plt.show()
 image_path_3 = os.path.join(dynamic_1_path, 'p3.png')
 
 img_3 = mpimg.imread(image_path_3)
+plt.figure(figsize=(10, 8))
 plt.imshow(img_3)
 plt.axis('off')
 plt.show()
