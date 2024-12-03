@@ -16,6 +16,7 @@ include-before-body:
       breaksymbolleft={},
       breaklines
     }
+
 ---
 
 ```{python}
@@ -27,6 +28,64 @@ import os
 from vega_datasets import data
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
+from PyPDF2 import PdfReader
+import spacy
+from spacytextblob.spacytextblob import SpacyTextBlob
+
+```
+
+### What is CARES Act
+# data was from "https://home.treasury.gov/system/files/136/Two-Year-ARP-Anniversary-Report.pdf"
+```{python}
+from PyPDF2 import PdfReader
+import spacy
+from spacytextblob.spacytextblob import SpacyTextBlob
+
+pdf_path = '/Users/wuzhenhan/Desktop/final-project-xy-wz/data/Extra credit.pdf'
+
+reader = PdfReader(pdf_path)
+text = ""
+for page in reader.pages:
+    text += page.extract_text()
+
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    import os
+    os.system("python -m spacy download en_core_web_sm")
+    nlp = spacy.load("en_core_web_sm")
+
+nlp.add_pipe('spacytextblob')
+
+doc = nlp(text)
+
+print("\n=== Sentiment Analysis ===")
+print(f"Overall Polarity: {doc._.blob.polarity}")
+print(f"Overall Subjectivity: {doc._.blob.subjectivity}")
+
+print("\nSentence-level Sentiment Analysis:")
+for sent in doc.sents:
+    print(f"Sentence: {sent.text}")
+    print(f"Polarity: {sent._.blob.polarity}")
+    print(f"Subjectivity: {sent._.blob.subjectivity}")
+    print()
+
+print("\n=== Named Entity Recognition (NER) ===")
+for ent in doc.ents:
+    print(f"Entity: {ent.text}, Label: {ent.label_}")
+
+print("\n=== Tokenization and POS tagging ===")
+for token in doc[:20]:
+    print(f"Token: {token.text}, POS: {token.pos_}")
+
+print("\n=== Sentences ===")
+sentences = list(doc.sents)
+for sent in sentences[:5]:
+    print(sent)
+
+import warnings 
+warnings.filterwarnings('ignore')
+alt.renderers.enable("png")
 
 ```
 
@@ -46,7 +105,7 @@ unemployment_rate['DATE'] = pd.to_datetime(unemployment_rate['DATE'])
 # Merge the datasets on the DATE column, keeping all rows from real_gdp left join
 merged_data = pd.merge(real_gdp, unemployment_rate, on='DATE', how='left')
 
-save_path = 'merged_data.csv'
+save_path = os.path.join(data_path, 'merged_data.csv')
 merged_data.to_csv(save_path, index=False)
 
 ```
@@ -154,7 +213,7 @@ chart.show()
 
 ```{python}
 
-unemp_state = os.path.join(output_path, 'anunemp.csv')
+unemp_state = os.path.join(data_path, 'anunemp.csv')
 unemployment_data = pd.read_csv(unemp_state)
 
 unemployment_data_filtered = unemployment_data.loc[unemployment_data['State'] != "United States"].copy(
@@ -178,7 +237,7 @@ geojson_data = json.loads(geojson)
 
 states = alt.Data(values=geojson_data['features'])
 
-unemployment_chart = alt.Chart(states).mark_geoshape(
+unemployment_chart_2024 = alt.Chart(states).mark_geoshape(
     stroke='black',
     strokeWidth=1
 ).encode(
@@ -192,13 +251,14 @@ unemployment_chart = alt.Chart(states).mark_geoshape(
 ).project(
     type='albersUsa'
 ).properties(
-    width=500,
-    height=500,
+    width=400,
+    height=300,
     title='Unemployment Rate by State (2024)'
 )
 
-unemployment_chart.display()
+unemployment_chart_2024.display()
 
+# Top 3 states with highest unemployment rate
 top_3_states = gdf_merged.nlargest(3, 'Rate_2024')[['NAME', 'Rate_2024']]
 print(top_3_states)
 
@@ -231,8 +291,8 @@ unemployment_chart_2023 = alt.Chart(states).mark_geoshape(
 ).project(
     type='albersUsa'
 ).properties(
-    width=500,
-    height=500,
+    width=400,
+    height=300,
     title='Unemployment Rate by State (2023)'
 )
 
@@ -272,8 +332,8 @@ unemployment_chart_2022 = alt.Chart(states_2022).mark_geoshape(
 ).project(
     type='albersUsa'  
 ).properties(
-    width=500,
-    height=500,
+    width=400,
+    height=300,
     title='Unemployment Rate by State (2022)'
 )
 
@@ -312,8 +372,8 @@ unemployment_chart_2021 = alt.Chart(states_2021).mark_geoshape(
 ).project(
     type='albersUsa'
 ).properties(
-    width=500,
-    height=500,
+    width=400,
+    height=300,
     title='Unemployment Rate by State (2021)'
 )
 
@@ -352,8 +412,8 @@ unemployment_chart_2020 = alt.Chart(states_2020).mark_geoshape(
 ).project(
     type='albersUsa'
 ).properties(
-    width=500,
-    height=500,
+    width=400,
+    height=300,
     title='Unemployment Rate by State (2020)'
 )
 
@@ -420,8 +480,8 @@ unemployment_chart_2018 = alt.Chart(states_2018).mark_geoshape(
 ).project(
     type='albersUsa'
 ).properties(
-    width=500,
-    height=500,
+    width=400,
+    height=300,
     title='Unemployment Rate by State (2018)'
 )
 
@@ -435,56 +495,28 @@ print(top_3_states_2018)
 
 ```{python}
 
-gdf_merged_2024 = gdf_states.merge(
-    unemployment_data_filtered, how='left', left_on='NAME', right_on='State').copy()
-gdf_merged_2024['Rate_2024'] = gdf_merged_2024['Rate_2024'].fillna(0)
-
-geojson_2024 = gdf_merged_2024.to_json()
-geojson_data_2024 = json.loads(geojson_2024)
-
-states_2024 = alt.Data(values=geojson_data_2024['features'])
-
-unemployment_chart_2024 = alt.Chart(states_2024).mark_geoshape(
-    stroke='black',
-    strokeWidth=1
-).encode(
-    color=alt.Color('properties.Rate_2024:Q',
-                    scale=alt.Scale(domain=[0, 10], scheme='orangered'),
-                    title='Unemployment Rate in 2024 (%)'),
-    tooltip=[
-        alt.Tooltip('properties.NAME:N', title='State'),
-        alt.Tooltip('properties.Rate_2024:Q', title='Unemployment Rate (%)')
-    ]
-).project(
-    type='albersUsa'
-).properties(
-    width=500,
-    height=500,
-    title='Unemployment Rate by State (2024)'
-)
-
 output_path = '/Users/cynthia/Desktop/final-project-xy-wz/picture/dynamic_1'
-os.makedirs(output_path, exist_ok=True)
 
 unemployment_chart_2018.save(os.path.join(
-    output_path, 'unemployment_rate_2018.html'))
+    output_path, 'unemployment_rate_2018.png'))
 unemployment_chart_2019.save(os.path.join(
-    output_path, 'unemployment_rate_2019.html'))
+    output_path, 'unemployment_rate_2019.png'))
 unemployment_chart_2020.save(os.path.join(
-    output_path, 'unemployment_rate_2020.html'))
+    output_path, 'unemployment_rate_2020.png'))
 unemployment_chart_2021.save(os.path.join(
-    output_path, 'unemployment_rate_2021.html'))
+    output_path, 'unemployment_rate_2021.png'))
 unemployment_chart_2022.save(os.path.join(
-    output_path, 'unemployment_rate_2022.html'))
+    output_path, 'unemployment_rate_2022.png'))
 unemployment_chart_2023.save(os.path.join(
-    output_path, 'unemployment_rate_2023.html'))
+    output_path, 'unemployment_rate_2023.png'))
 unemployment_chart_2024.save(os.path.join(
-    output_path, 'unemployment_rate_2024.html'))
+    output_path, 'unemployment_rate_2024.png'))
 
 
 ```
 
 # b. Create the dynamic maps of unemployment rates by state in app.py file
+# For a detailed view of how these figures were generated, please refer to the code in app.py. The dynamic trends presented here are the final output of our detailed data processing and visualization pipeline. 
 
 ```{python}
 
@@ -520,11 +552,10 @@ plt.show()
 
 ```
 
->>>>>>> Stashed changes
 # 4. Dynamic Trends of Real GDP and Unemployment Rate Under CARES Act 
+# For a detailed view of how these figures were generated, please refer to the code in app.py. The dynamic trends presented here are the final output of our detailed data processing and visualization pipeline. 
 
 ```{python}
-# For a detailed view of how these figures were generated, please refer to the code in app.py. The dynamic trends presented here are the final output of our detailed data processing and visualization pipeline. 
 
 dynamic_2_path = '/Users/cynthia/Desktop/final-project-xy-wz/picture/dynamic_2'
 

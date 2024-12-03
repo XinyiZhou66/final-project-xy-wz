@@ -23,7 +23,7 @@ app_ui = ui.page_fluid(
     ui.output_plot("plot"),
     ui.output_table("top_3_states"),
 
-    ui.h2("Impact of CARES Act on Real GDP and Unemployment Rate"),
+    ui.h2("Trends in Real GDP and Unemployment Rate During the Implementation of the CARES Act"),
     ui.input_checkbox_group(
         "indicator_checklist", 
         "Select Indicators to Display:",
