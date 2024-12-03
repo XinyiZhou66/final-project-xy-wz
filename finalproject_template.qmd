@@ -37,6 +37,8 @@ warnings.filterwarnings('ignore')
 alt.renderers.enable("png")
 ```
 
+### Research Topic: Evaluating the Effectiveness of the CARES Act in Accelerating Employment Recovery During the COVID-19 Pandemic
+
 ### What is CARES Act
 # data was from "https://home.treasury.gov/system/files/136/Two-Year-ARP-Anniversary-Report.pdf"
 ```{python}
@@ -467,8 +469,8 @@ unemployment_chart_2019 = alt.Chart(states_2019).mark_geoshape(
 ).project(
     type='albersUsa'
 ).properties(
-    width=500,
-    height=500,
+    width=400,
+    height=300,
     title='Unemployment Rate by State (2019)'
 )
 
@@ -546,7 +548,7 @@ dynamic_1_path = '/Users/cynthia/Desktop/final-project-xy-wz/picture/dynamic_1'
 image_path_1 = os.path.join(dynamic_1_path, 'p1.png')
 
 img_1 = mpimg.imread(image_path_1)
-plt.figure(figsize=(10, 8)) 
+plt.figure(figsize=(9, 6)) 
 plt.imshow(img_1)
 plt.axis('off')
 plt.show()
@@ -557,7 +559,7 @@ plt.show()
 image_path_2 = os.path.join(dynamic_1_path, 'p2.png')
 
 img_2 = mpimg.imread(image_path_2)
-plt.figure(figsize=(10, 8))
+plt.figure(figsize=(9, 6))
 plt.imshow(img_2)
 plt.axis('off')
 plt.show()
@@ -569,7 +571,7 @@ plt.show()
 image_path_3 = os.path.join(dynamic_1_path, 'p3.png')
 
 img_3 = mpimg.imread(image_path_3)
-plt.figure(figsize=(10, 8))
+plt.figure(figsize=(9, 6))
 plt.imshow(img_3)
 plt.axis('off')
 plt.show()
@@ -589,7 +591,7 @@ screenshot_path_3 = os.path.join(dynamic_2_path, 'Implementation_period.png')
 screenshot_path_4 = os.path.join(dynamic_2_path, 'After_Implementation.png') 
 
 
-def show_image(image_path, figsize=(10, 8)):
+def show_image(image_path, figsize=(9, 6)):
     img = mpimg.imread(image_path)
     plt.figure(figsize=figsize)
     plt.imshow(img)
