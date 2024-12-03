@@ -1,0 +1,3289 @@
+
+=== Sentiment Analysis ===
+Overall Polarity: 0.07305859392505357
+Overall Subjectivity: 0.33984163731368755
+
+Sentence-level Sentiment Analysis:
+Sentence: March 2023
+AMERICAN RESCUE PLAN  
+TWO YEARS IN:  
+THE AMERICAN RESCUE PLAN ACT’S HISTORIC  
+INVESTMENTS IN A STRONGER ECONOMIC FUTURE
+U.S. DEPARTMENT OF THE TREASURY  
+OFFICE OF RECOVERY PROGRAMS:  AMERICAN RESCUE PLAN SECOND ANNIVERSARY REPORTCONTENTS
+Executive Summary  ....................................................................................
+Polarity: 0.028571428571428574
+Subjectivity: 0.04642857142857143
+
+Sentence: 1
+State and Local Fiscal Recovery Funds  ...............................................
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: 3
+Capital Projects Fund  .................................................................................
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: 12
+Emergency Rental Assistance Program  .............................................. 15
+Homeowner Assistance Fund  .................................................................
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: 17
+State Small Business Credit Initiative  ................................................. 19
+Historic Tax Relief for Working Families  
+and Record Low Child Poverty  ..............................................................
+Polarity: -0.08333333333333333
+Subjectivity: 0.2333333333333333
+
+Sentence: 22
+Saving the Pension Benefits of Millions  
+of Workers, Retirees, and their Families  ............................................
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: 22
+Conclusion  ..................................................................................................... 231
+U.S. DEPARTMENT OF THE TREASURY  
+OFFICE OF RECOVERY PROGRAMS:  
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: AMERICAN RESCUE PLAN SECOND ANNIVERSARY REPORTExecutive Summary
+The American Rescue Plan has helped to power one of the strongest and most equitable recoveries 
+on record while making investments which position our nation for economic success in the coming 
+decades.
+Polarity: 0.16666666666666666
+Subjectivity: 0.11666666666666665
+
+Sentence: As Secretary Yellen has said, “[t]he Rescue Plan provided critical relief and helped drive a 
+historic recovery. . .
+Polarity: 0.0
+Subjectivity: 0.4
+
+Sentence: The strong recovery of the past two years has not only meant that Americans are 
+better off today.
+Polarity: 0.17083333333333334
+Subjectivity: 0.6208333333333333
+
+Sentence: It has allowed us to focus on what our economy will look like in 2030—not just 2023. ” 
+
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: American Rescue Plan investments helped make 2021 and 2022 the fastest two years of job growth and 
+new small business formation on record and contributed to the unemployment rate reaching its lowest 
+level in over 50 years at the start of 2023, with historically rapid recoveries in Hispanic, Black, youth, 
+and long-term unemployment. 
+
+Polarity: -0.056060606060606054
+Subjectivity: 0.25757575757575757
+
+Sentence: Following enactment of the American Rescue Plan in March of 2021, the Treasury Department oversaw 
+an historic and unprecedented provision of assistance to struggling Americans, including delivering 
+more than 150 million Economic Impact Payments within the first few weeks following the American 
+Rescue Plan’s passage; helping launch a national infrastructure to provide emergency rental assistance 
+and prevent evictions across the country; issuing the first ever monthly payments of the Child Tax 
+Credit supporting tens of millions of families; and rapidly distributing unprecedented financial support 
+to every state, local, Tribal and territorial government to help stabilize budgets, avoid cuts, address 
+pressing community needs, and help support a rapid, resilient, and equitable recovery.
+
+Polarity: 0.16333333333333336
+Subjectivity: 0.2477777777777778
+
+Sentence: Over the last year, American Rescue Plan programs administered by Treasury continued to make a 
+significant difference in the lives of millions of Americans and contribute to a strengthening of local 
+communities and an expansion of economic opportunities, including:
+Delivering direct and flexible aid to over 30,000 state, local, Tribal, and territorial 
+governments to respond to the pandemic and make critical investments in a strong and 
+equitable recovery.  
+Polarity: 0.12314814814814813
+Subjectivity: 0.3416666666666667
+
+Sentence: To date, over 99% of all available State and Local Fiscal Recovery Funds have 
+been delivered into the hands of nearly every state, local, Tribal, and territorial government to support 
+their response to the pandemic and help avoid the consequences of the Great Recession, when 
+state and local austerity was a drag on GDP growth for the first 14 quarters of the recovery.
+Polarity: 0.18125
+Subjectivity: 0.24427083333333333
+
+Sentence: To date, 
+recipients have budgeted $11.8 billion for public health projects, $15.9 billion for housing-related 
+purposes, $10.9 billion for workforce support, $4.4 billion for small business support, and $24.3 billion 
+for critical infrastructure investments in broadband, water, and sewer.
+
+Polarity: -0.08333333333333333
+Subjectivity: 0.4222222222222222
+
+Sentence: Investing in expanded access to high-speed internet, benefiting over 1.4 million 
+underserved families and businesses.  
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: Through the Capital Projects Fund, Treasury has approved 
+awards for high-speed internet infrastructure that will deliver reliable, affordable access to over 1.4 
+million currently underserved homes and businesses in 34 states.
+
+Polarity: 0.0
+Subjectivity: 0.4
+
+Sentence: Delivering rental and utility assistance to millions of hard-pressed renter households, 
+preventing evictions and helping families remain in their homes.  
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: Through December 2022, the 
+Emergency Rental Assistance program had delivered more than 10.3 million assistance payments to 
+families at risk of eviction.  
+Polarity: 0.5
+Subjectivity: 0.5
+
+Sentence: While eviction diversion programs were uncommon before the pandemic, 
+at least 180 jurisdictions across 36 states have launched or strengthened eviction diversion programs 
+with ERA, programs that have significantly limited eviction rates.2
+U.S. DEPARTMENT OF THE TREASURY  
+OFFICE OF RECOVERY PROGRAMS:  
+Polarity: 0.14285714285714288
+Subjectivity: 0.5142857142857142
+
+Sentence: AMERICAN RESCUE PLAN SECOND ANNIVERSARY REPORTProviding a lifeline to over 230,000 families at risk of losing their homes.  
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: As Homeowner 
+Assistance Fund programs geared up across the states and territories, more than 230,000 families  
+at-risk of foreclosure received assistance in 2022.
+Polarity: 0.5
+Subjectivity: 0.5
+
+Sentence: Despite the economic disruptions caused by 
+COVID-19, foreclosure starts are 30% below pre-pandemic levels, according to Black Knight data, even 
+after the expiration of several emergency foreclosure protections from the height of the pandemic.
+
+Polarity: 0.011111111111111118
+Subjectivity: 0.2111111111111111
+
+Sentence: Launching small business assistance programs—with a focus on entrepreneurs and  
+owners who have been underserved historically—that will provide equity investment or 
+credit support to up to 100,000 small businesses over the next decade .
+Polarity: -0.16666666666666666
+Subjectivity: 0.26666666666666666
+
+Sentence: Building off the two 
+highest years for new small business formation on record in 2021 and 2022, Treasury approved plans 
+for State Small Business Credit Initiative-supported programs in 51 states and territories over the  
+past 12 months.  
+Polarity: -0.1534090909090909
+Subjectivity: 0.3761363636363636
+
+Sentence: These plans are designed to catalyze tens of billions of dollars of private investment 
+and support up to 100,000 small businesses over the next decade.
+Polarity: -0.08333333333333333
+Subjectivity: 0.25833333333333336
+
+Sentence: Moreover, through 2022, Treasury 
+made $8.38 billion in investments to 170 community financial institutions through the Emergency 
+Capital Investment Program that will increase lending to small businesses and other community 
+development priorities.
+
+Polarity: -0.125
+Subjectivity: 0.25833333333333336
+
+Sentence: Delivering historic tax relief for families and record reductions in child poverty.  
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: New data 
+released in 2022 by the Census Bureau showed that the expanded Child Tax Credit provided by the 
+American Rescue Plan was the leading driver behind a 46% decline in child poverty in 2021— cutting 
+the annual child poverty rate to its lowest-ever recorded level including record lows in Black, Hispanic, 
+Native American, Asian, and white child poverty.
+Polarity: -0.12878787878787878
+Subjectivity: 0.31098484848484853
+
+Sentence: Additionally, the lifting of restrictions that prevented 
+families with fewer than three age-eligible children from receiving the Child Tax Credit in Puerto Rico 
+led to 200,000 more families in the archipelago receiving the credit when they filed taxes in 2022 
+compared to a year earlier.
+
+Polarity: 0.25
+Subjectivity: 0.5
+
+Sentence: 3
+U.S. DEPARTMENT OF THE TREASURY  
+OFFICE OF RECOVERY PROGRAMS:  AMERICAN RESCUE PLAN SECOND ANNIVERSARY REPORTState and Local Fiscal Recovery Funds
+
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: The State and Local Fiscal Recovery Funds (SLFRF) program provided $350 billion to over 30,000 
+state, local, Tribal, and territorial government governments across the country to support both their 
+immediate needs in responding to the COVID-19 pandemic and their longer-term efforts to build a 
+strong recovery.
+Polarity: 0.14444444444444443
+Subjectivity: 0.24444444444444444
+
+Sentence: In contrast to previous downturns where state, local, and Tribal governments faced 
+budget shortfalls that slowed recovery and resulted in cuts to needed services, SLFRF provided the 
+resources communities needed to help drive a stronger economy, both now and over the long-run.   
+
+Polarity: -0.08333333333333333
+Subjectivity: 0.08333333333333333
+
+Sentence: Swift delivery to meet needs during a crisis:  In the months before the passage of the ARP , 
+survey data found that 90% of cities  were experiencing revenue declines and that half of states  were 
+imposing hiring freezes, furloughing workers, or cutting salaries or other staff costs.  
+Polarity: -0.2972222222222222
+Subjectivity: 0.48055555555555557
+
+Sentence: The first tranche 
+of SLFRF funding was made available to recipients in 2021, only two months after ARP’s enactment, 
+with the second tranche of funding becoming available in May 2022.  
+Polarity: 0.25
+Subjectivity: 0.49722222222222223
+
+Sentence: In addition to preventing layoffs 
+and service cuts, swift disbursement of funds allowed governments to support public health – with 
+recipients budgeting over $11 billion towards more than 5,300 public health projects to date.  
+Polarity: 0.16666666666666666
+Subjectivity: 0.2111111111111111
+
+Sentence: Today, 
+more than 99% of funds are now in the hands of recipients and, according to NASBO, states have 
+budgeted more  than 90% of the funds they have received.
+
+Polarity: 0.5
+Subjectivity: 0.5
+
+Sentence: Flexible funding to respond to the diverse needs of different communities:  With many 
+governments of all sizes facing substantial fiscal challenges as a result of the pandemic – which both 
+reduced revenues and increased the need for services in their communities – the SLFRF program was 
+designed to provide flexible aid, including the ability to use funds up to the level of a government’s 
+revenue loss on the broad range of services that governments traditionally provide.
+Polarity: 0.140625
+Subjectivity: 0.540625
+
+Sentence: Treasury’s Final 
+Rule  additionally identified a wide range of eligible uses to respond to the coronavirus pandemic and its 
+negative economic impacts.  
+Polarity: -0.05
+Subjectivity: 0.49999999999999994
+
+Sentence: These flexibilities provided in ARP recognized that there is no one-size-fits-
+all approach to the challenges facing communities ranging from large states to small towns, and gave 
+recipients the ability to take approaches that met local needs.
+
+Polarity: -0.01190476190476191
+Subjectivity: 0.27619047619047615
+
+Sentence: Catalyzing investment to support a strong recovery:  Governments have used SLFRF funds not 
+only to prevent cuts in government services and respond to the immediate health and economic 
+consequences of the pandemic, but also to make much-needed investments to strengthen their 
+economies and their communities over the long-run.
+Polarity: 0.2111111111111111
+Subjectivity: 0.6444444444444445
+
+Sentence: To date, recipients have budgeted $11.8 billion 
+for public health projects, $15.9 billion for housing-related purposes, $10.9 billion for workforce 
+support, $4.4 billion for small business support, and $24.3 billion for critical infrastructure investments 
+in broadband, water, and sewer. 
+
+Polarity: -0.08333333333333333
+Subjectivity: 0.4222222222222222
+
+Sentence: Direct relief to local and tribal governments:  SLFRF provided direct relief to local governments 
+of every size, including smaller city, county, and town governments excluded from direct support in 
+previous fiscal aid programs.
+Polarity: 0.019047619047619056
+Subjectivity: 0.2666666666666667
+
+Sentence: This support has allowed rural communities, for example, to invest in 
+areas like public health, broadband, and sewer and water infrastructure.
+Polarity: 0.0
+Subjectivity: 0.03333333333333333
+
+Sentence: Likewise, Tribal governments 
+received historic funding through $20 billion in SLFRF funds allocated to them, the largest single 
+infusion of federal funding into Indian Country in U.S. history, discussed in greater detail in Treasury’s 
+SLFRF Tribal Recovery Report .
+Polarity: 0.14285714285714288
+Subjectivity: 0.2380952380952381
+
+Sentence: Putting relief directly in the hands of local communities and Tribal 
+governments has allowed them to quickly respond to the unique needs of their communities and make 
+the investments they deem most valuable.4
+U.S. DEPARTMENT OF THE TREASURY  
+OFFICE OF RECOVERY PROGRAMS:  AMERICAN RESCUE PLAN SECOND ANNIVERSARY
+Polarity: 0.1869047619047619
+Subjectivity: 0.34285714285714286
+
+Sentence: REPORTCatalyzing an equitable recovery:  The Biden Administration recognized that fully addressing 
+the disproportionate impacts of the pandemic required addressing underlying disparities that left 
+some people and communities more vulnerable to the pandemic, not just the incremental impacts 
+that occurred during the pandemic.
+Polarity: 0.0
+Subjectivity: 0.3333333333333333
+
+Sentence: To translate this goal into action, Treasury provided a broad 
+menu of services to enhance health and economic equity that were automatically eligible uses of 
+funds in low-income, high-poverty communities.  
+Polarity: 0.12083333333333335
+Subjectivity: 0.2041666666666667
+
+Sentence: For example, the Final Rule made all low-income 
+households and communities automatically eligible for services and expanded eligible uses of funds 
+in disproportionately impacted communities to encourage more investment.  
+Polarity: 0.25
+Subjectivity: 0.75
+
+Sentence: Treasury’s SLFRF Equity 
+and Outcomes Resource Guide  highlights the tools and processes recipients are using to incorporate 
+equity into their SLFRF programs. 
+
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: Support for innovation:  The SLFRF program allows state, local, Tribal, and territorial governments 
+to build public sector capacity by making investments in program evaluation, data analysis, and 
+community outreach to improve the efficacy of vital public health and economic relief programs. 
+
+Polarity: 0.06000000000000001
+Subjectivity: 0.14666666666666667
+
+Sentence: Taken together, this approach is helping governments build their capacity to be better prepared and 
+more resilient for future crises.
+Polarity: 0.3333333333333333
+Subjectivity: 0.375
+
+Sentence: Furthermore, Treasury’s reporting requirements gather information 
+about how recipients are using evidence and evaluation in their SLFRF programs.
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: Treasury has also 
+worked with outside groups to highlight “best practices” – both in terms of equitably deploying funds 
+generally and in encouraging the best uses of funds in priority areas, creating a dynamic where many 
+communities are following the lead of high performers. 
+
+Polarity: 0.33875
+Subjectivity: 0.3070833333333333
+
+Sentence: Moving forward, Treasury is implementing new eligible uses for SLFRF funds in areas like infrastructure 
+investment that will further support a strong recovery.
+Polarity: 0.18989898989898987
+Subjectivity: 0.5626262626262627
+
+Sentence: At the same time, Treasury will continue to work 
+with SLFRF recipients to share best practices and lift up examples of how recipients are using their 
+funds to help recipients meet the deadline to obligate SLFRF funds by December 31, 2024, and expend 
+them by December 31, 2026.
+
+Polarity: 0.5
+Subjectivity: 0.2125
+
+Sentence: 5
+U.S. DEPARTMENT OF THE TREASURY  
+OFFICE OF RECOVERY PROGRAMS:  AMERICAN RESCUE PLAN SECOND ANNIVERSARY
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: REPORTAddressing public health needs
+1,500 governments report having budgeted nearly $12 billion for more than 
+5,300 projects addressing public health needs including COVID-19 testing, 
+vaccinations, staffing, and outreach to underserved communities. 
+
+Polarity: 0.15
+Subjectivity: 0.25833333333333336
+
+Sentence: Providing state, local, Tribal, and territorial governments the resources needed to address public 
+health needs is a core goal of SLFRF.  
+Polarity: 0.0
+Subjectivity: 0.03333333333333333
+
+Sentence: In addition to fighting COVID-19 through vaccinations, testing, 
+supporting hospital capacity, protecting nursing homes and congregate settings, purchasing PPE, 
+and supporting local health departments, recipients have also invested funds in behavioral health 
+care, such as substance use and mental health treatment, as well as preventing and responding to 
+violence, in recognition of the broad mental and emotional health consequences of COVID-19.  
+Polarity: 0.045312500000000006
+Subjectivity: 0.2953125
+
+Sentence: For 
+local governments, the provision of COVID-19 public health services is one of the top programmatic 
+expenditure categories, due in part to SLFRF being the first time that most local governments received 
+direct, dedicated federal support to respond to the pandemic and its impacts.
+Polarity: 0.153125
+Subjectivity: 0.271875
+
+Sentence: Examples1 of how 
+recipients are investing in public health include: 
+1    Data based on Project and Expenditure Reports submitted to Treasury for the reporting period ended December 31, 
+2022.  
+Polarity: 0.0
+Subjectivity: 0.06666666666666667
+
+Sentence: The examples included throughout this report are based on recipient reports, and their inclusion in this document 
+does not constitute an explicit approval of these projects by Treasury.
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: The State of Alaska  budgeted $40 million to address 
+the state’s most critical COVID public health needs that 
+were not covered by other available funding sources, 
+including providing testing equipment and consultation 
+services to address the ongoing needs of the pandemic. 
+
+Polarity: 0.155
+Subjectivity: 0.42833333333333334
+
+Sentence: El Paso, Texas  budgeted more than $16 million for 
+the health department’s COVID-19 response teams 
+including testing, vaccination, and the response supply 
+center.
+Polarity: 0.2
+Subjectivity: 0.3
+
+Sentence: This initiative also includes the design and 
+construction of a new clinic which will provide COVID-19 
+response services to underserved communities.
+
+Polarity: 0.13636363636363635
+Subjectivity: 0.45454545454545453
+
+Sentence: Milwaukee, Wisconsin obligated over $13 million 
+for COVID-19 public health services including testing, 
+vaccinations, isolation, a COVID-19 hotline, and 
+medical respite care.
+Polarity: 0.0
+Subjectivity: 0.03333333333333333
+
+Sentence: These services are targeted to 
+disproportionately impacted low-income and minority 
+communities as these were identified as the most 
+vulnerable populations based on socioeconomic status, 
+housing type, and transportation access.
+Polarity: 0.0
+Subjectivity: 0.5
+
+Sentence: Allegheny County, Pennsylvania  budgeted $14.5 
+million to build the county Department of Human 
+Services’ capacity and add new services to address 
+behavioral health issues, including regional call centers, 
+mobile crisis teams, and receiving and stabilization 
+facilities.
+
+Polarity: 0.06818181818181818
+Subjectivity: 0.2772727272727273
+
+Sentence: The Ninilchik Village  will braid SLFRF with IHS funding 
+to build a primary care medical clinic to serve the 
+Homer, Alaska , community and establish a second 
+clinic for the Anchor Point, Alaska community.
+Polarity: 0.13333333333333333
+Subjectivity: 0.16666666666666666
+
+Sentence: 6
+U.S. DEPARTMENT OF THE TREASURY  
+OFFICE OF RECOVERY PROGRAMS:  AMERICAN RESCUE PLAN SECOND ANNIVERSARY
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: REPORTSupporting affordable housing
+SLFRF recipients have committed nearly $16 billion on more than 2,100 projects 
+to meet housing needs, over $5.4 billion of which have been committed to 
+affordable housing development and preservation.  
+Polarity: 0.3
+Subjectivity: 0.45
+
+Sentence: Recipients have reported 
+serving more than 3.6 million households with rent, mortgage, or utility aid.  
+
+Polarity: 0.5
+Subjectivity: 0.5
+
+Sentence: The COVID-19 pandemic exacerbated the pre-existing housing crisis, putting millions of renters and 
+homeowners at risk of losing their homes.  
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: Expanding access to affordable housing is a top priority 
+for Treasury and the Administration,  and the use of SLFRF funds for affordable housing is part of 
+the  Administration’s broader Housing Supply Action Plan  to ease housing costs over time.  
+Polarity: 0.3
+Subjectivity: 0.3
+
+Sentence: Treasury 
+is playing a key role in this work by encouraging jurisdictions to consider using SLFRF for affordable 
+housing or to supplement other ARP programs aiding renters and homeowners, such as the Emergency 
+Rental Assistance program and the Homeowners Assistance Fund, which are discussed in detail below. 
+
+Polarity: -0.041666666666666664
+Subjectivity: 0.625
+
+Sentence: In July 2022, Treasury announced additional guidance  designed to increase the affordable housing 
+supply by expanding the list of presumptively eligible uses of funds for affordable housing and 
+permitting recipients to use SLFRF to make long-term loans to finance certain affordable housing 
+projects, including Low-Income Housing Tax Credit projects.  
+Polarity: 0.21428571428571427
+Subjectivity: 0.5714285714285714
+
+Sentence: Since then, SLFRF recipients have 
+increased their investments in affordable housing projects by 20%.  
+
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: Examples of how governments are investing their SLFRF to increase the supply of housing in their 
+communities include:  
+ The State of Idaho  has budgeted $50 million for gap 
+financing to eligible low- and moderate-income-targeted 
+multifamily housing developments and down payment/
+closing cost assistance for low- and moderate-income 
+homebuyers.
+Polarity: -0.051851851851851864
+Subjectivity: 0.2962962962962963
+
+Sentence: This will ensure that those who were the 
+most economically impacted by the COVID-19 pandemic 
+and the affordable housing crisis have access to long-
+term, high-quality, affordable housing. 
+
+Polarity: 0.25
+Subjectivity: 0.6
+
+Sentence: Mobile, Alabama  has budgeted more than $4 million 
+to work with housing developers and the local Public 
+Housing Authority to revitalize neighborhoods with 
+affordable housing for unhoused persons and first-time 
+homebuyers. 
+
+Polarity: 0.16666666666666666
+Subjectivity: 0.18888888888888888
+
+Sentence: Pensacola, Florida  has allocated $3 million to improve 
+access to stable, affordable housing for unhoused 
+individuals as well as programs to assist the unhoused.
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: Rochester, New York  is dedicating over $13 million 
+focused on creating homeownership opportunities 
+for low-income residents in neighborhoods that have 
+faced challenges even before the COVID-19 pandemic. 
+
+Polarity: 0.13636363636363635
+Subjectivity: 0.45454545454545453
+
+Sentence: This includes constructing new single-family houses 
+on previously vacant city-owned land in targeted 
+neighborhoods and incorporating sustainability and 
+energy efficiency in construction. 
+
+Polarity: -0.015151515151515152
+Subjectivity: 0.3106060606060606
+
+Sentence: Tarrant County, Texas  has budgeted more than $33 
+million into expanding permanent supportive housing 
+as the COVID-19 pandemic highlighted the need 
+for additional housing to serve its most vulnerable 
+populations.
+Polarity: 0.25
+Subjectivity: 0.625
+
+Sentence: The project includes grant awards to 
+nonprofits that focus on housing and was facilitated 
+through an application process run by the Tarrant 
+County Housing Finance Corporation. 
+
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: The Knik Tribe will build 32 affordable homes for its 
+elder population.
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: The homes incorporate accessibility 
+floorplans and important age-in-place features that will 
+support independence.7
+U.S. DEPARTMENT OF THE TREASURY  
+OFFICE OF RECOVERY PROGRAMS:  AMERICAN RESCUE PLAN SECOND ANNIVERSARY REPORT
+7
+Services for Unhoused Persons: case study
+U.S. Department of the Treasury, Coronavirus State & Local Fiscal Recovery FundsPermanent Housing 
+Capital Expense ($14.1M)
+Fund property acquisition, 
+renovation, and associated 
+costs to create more 
+deeply affordable housing 
+unitsCity of Austin, Texas* invests in eight projects totaling $95.3M in SLFRF dedicated to a comprehensive, community -wide effort to 
+reduce levels of unsheltered homelessness across Austin.
+Polarity: 0.1142857142857143
+Subjectivity: 0.32857142857142857
+
+Sentence: These projects are allocated under revenue loss , under expenditure 
+category 6.1:
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: Provision of Government Services.
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: These projects fits within a larger three -year community initiative called Finding 
+Home ATX, coordinating investments from public and private sources to achieve three core objectives: (1)  house an additional
+3,000 individuals experiencing homelessness, (2) add 1,300 new units of  affordable housing for the population experiencing 
+homelessness, and (3) build a better Homelessness Response System by ensuring program access and outcomes are equitable, 
+investing in social service provider capacity building and developing stronger system oversight and performance mgmt. functio ns.
+Polarity: -0.011471861471861475
+Subjectivity: 0.4232683982683983
+
+Sentence: Housing
+Targeted Prevention 
+($2.5M)
+Fund eviction 
+interventions, landlord 
+mediation, financial 
+assistance, rental 
+subsidies, legal services, 
+case management, etc.Emergency Shelter & Crisis 
+Services ($10.0M)
+Fund temporary shelter, 
+street outreach, and other 
+crisis services for 
+individuals experiencing 
+unsheltered homelessnessRapid Housing Programs 
+($45.0M)
+Fund rapid rehousing 
+programs including case 
+mgmt., housing location 
+and placement services, up 
+to 24 months of rental / 
+utility assistanceSupporting Providers 
+($5.2M)
+Fund capacity building for 
+organizations with the 
+Homelessness Response 
+System, focusing on 
+equitable outcomes and 
+innovative solutions
+Landlord Engagement and 
+Move In ($5.0M)
+Fund housing barrier 
+reduction efforts through 
+landlord outreach and 
+engagement, coordination 
+of housing inventory, and 
+move -in supportsOther Homeless Support 
+Services ($9.5M)
+Fund workforce / 
+employment development, 
+behavioral health, and 
+benefits access servicesHomeless System Support 
+($4.0M
+Polarity: 0.14375
+Subjectivity: 0.39375
+
+Sentence: )
+Fund oversight and 
+performance management, 
+community engagement, 
+and communications of the 
+Homelessness Response 
+System
+*Recipient accounts for funding for projects under Revenue ReplacementThe examples included throughout this document are based on recipient reports and their inclusion in this document does not c onstitute an explicit approval of these projects by Treasury. 
+
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: 10
+Affordable Rental Housing: case study
+U.S. Department of the Treasury, Coronavirus State & Local Fiscal Recovery FundsHousing 
+Supply
+Wrap -
+around 
+ServicesHousing
+Maricopa County, Arizona invests in both the supply of affordable housing and wraparound services to assist 
+tenants in maintaining and finding rental housing
+Construction and Preservation of Affordable Housing ($65.2M)
+
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: Add at least 120 affordable housing units to existing affordable housing inventory, with a focus on constructing new 
+affordable housing on Qualified Census Tracts or renovating existing buildings in QCTs
+Longer -Term Case Management & Self Support ($4.5M)
+
+Polarity: -0.08181818181818182
+Subjectivity: 0.42727272727272725
+
+Sentence: Provide long -term case management for clients obtaining rent and utility assistance, as well as workforce assistance 
+and childcare / early education assistance provided by the county or other community -based services
+Eviction Prevention Legal Aid ($2.6M)
+Fund expert legal counsel and county court representation for tenants facing eviction due to nonpayment of rentNavigation and Application Assistance ($3.9M)
+Fund navigation and application assistance for seeking rental or utility assistance and emergency / temporary housingPayments to Landlords ($11.6M)
+Direct payments to landlords and utility companies with tenants facing eviction due to nonpayment of rent with 
+assurances the tenants will not be evicted one money is received, identified through the ERA program
+Rental and Utility Assistance ($0.8M)
+Rent and utility payment assistance to individuals who lost jobs or had significant income reduction due to the 
+pandemicThe examples included throughout this document are based on recipient reports and their inclusion in this document does not c onstitute an explicit approval of these projects by Treasury.
+Polarity: 0.0425
+Subjectivity: 0.3875
+
+Sentence: 8
+U.S. DEPARTMENT OF THE TREASURY  
+OFFICE OF RECOVERY PROGRAMS:  AMERICAN RESCUE PLAN SECOND ANNIVERSARY
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: REPORTSupporting the workforce
+SLFRF recipients have budgeted nearly $11 billion in SLFRF funds for more 
+than 3,500 projects to create jobs and opportunities for workers in response 
+to the negative economic impacts of the pandemic on communities.
+
+Polarity: 0.125
+Subjectivity: 0.375
+
+Sentence: Many SLFRF projects are using their funds to help workers enter or re-enter the workforce and find 
+good-paying jobs, helping to build a stronger recovery.
+Polarity: 0.5
+Subjectivity: 0.5
+
+Sentence: Key areas of workforce investment include 
+helping impacted workers enter in-demand careers, with a particular focus on assisting people that 
+have barriers to employment and preparing for industries of the future such as those catalyzed by 
+the Inflation Reduction Act, the Creating Helpful Incentives to Produce Semiconductors and Science 
+Act (CHIPS), and the Bipartisan Infrastructure Law.  
+Polarity: 0.041666666666666664
+Subjectivity: 0.4895833333333333
+
+Sentence: Recipients have invested in programs including 
+apprenticeship and pre-apprenticeship initiatives, job training developed in partnership with labor and 
+the private sector, and supportive services to ensure parents have affordable childcare while they work. 
+
+Polarity: 0.19999999999999998
+Subjectivity: 0.5583333333333333
+
+Sentence: Examples of how recipients are using SLFRF to invest in workers include: 
+Detroit, Michigan  budgeted nearly $59 million for 
+Detroiters for Skills for Life, a training and career 
+readiness program for residents that continue to face 
+economic hardships exacerbated by the COVID-19 
+pandemic.
+Polarity: 0.15000000000000002
+Subjectivity: 0.30000000000000004
+
+Sentence: The program provides employment and skill 
+and career-building activities and assists in removing 
+barriers to employment by offering disconnected 
+workers on-ramps so that they may earn income 
+while building critical skills to improve long-term 
+employment and job retention prospects. 
+
+Polarity: 0.0
+Subjectivity: 0.8
+
+Sentence: The State of Maine  budgeted $1.5 million for the 
+Maine Apprenticeship Program that is specifically 
+focused on building high quality pre-apprenticeship and 
+apprenticeship programs for the clean energy sector 
+in partnership with businesses, industry associations, 
+unions, education and training providers, and 
+community-based organizations. 
+
+Polarity: 0.26333333333333336
+Subjectivity: 0.62
+
+Sentence: Pima County, Arizona  budgeted over $5 million for a 
+‘Micro-Pathways’ program to provide participants with 
+financial support to access short-term programs that 
+lead directly into in-demand jobs with family-sustaining 
+wages.
+Polarity: 0.05
+Subjectivity: 0.2
+
+Sentence: The county will also support apprenticeships 
+and other workforce programs focused on high growth 
+career fields.
+Polarity: 0.0175
+Subjectivity: 0.45749999999999996
+
+Sentence: Roanoke, Virginia  obligated $3 million to the Star City 
+Works program devoted to identifying the needs of 
+employers in high-growth, high-potential sectors and 
+to filling any gaps that may exist in the local workforce. 
+
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: The program includes training, work-based learning 
+opportunities, and wrap-around supportive services 
+(transportation, childcare, food assistance, utility/
+mortgage assistance). 
+
+Polarity: 0.5
+Subjectivity: 1.0
+
+Sentence: The Lovelock Paiute Tribe  is assisting working parents 
+with long-term solutions for childcare.
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: The pandemic 
+reduced childcare in an area that already had an 
+ongoing lack of options.
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: The Tribe is constructing 
+both a daycare and a Head Start to assist families and 
+provide comprehensive early childhood education.
+
+Polarity: 0.1
+Subjectivity: 0.3
+
+Sentence: Salt Lake City, Utah  obligated $1.5 million to cover 
+payroll and benefits to hire positions that were unfilled 
+due to the negative economic impact of the pandemic 
+on public sector employment. 
+
+Polarity: -0.056249999999999994
+Subjectivity: 0.2604166666666667
+
+Sentence: Travis County, Texas  budgeted more than $6 million 
+for a workforce development program targeting the 
+pandemic’s effect on local industries by providing 
+training aligned with industries in the community 
+workforce development plan.
+Polarity: 0.25
+Subjectivity: 0.25
+
+Sentence: The program provides 
+supportive services including childcare, transportation 
+assistance, laptops and mobile hotspots, educational 
+assistance stipends, work-related payments, and 
+subsidized employment while in work-based learning 
+or apprenticeship programs.9
+U.S. DEPARTMENT OF THE TREASURY  
+OFFICE OF RECOVERY PROGRAMS:  AMERICAN RESCUE PLAN SECOND ANNIVERSARY REPORT18
+Job Training: Case Study
+U.S. Department of the Treasury, Coronavirus State & Local Fiscal Recovery FundsState of Idaho invests $50.0M in Leading Idaho, comprised of four projects that enable workforce support, 
+training, and employment readiness initiatives:
+
+Polarity: 0.15
+Subjectivity: 0.25
+
+Sentence: Talent Pipeline Management (TPM)
+Goal: identify / align workforce training to high quality jobs 
+
+Polarity: 0.16
+Subjectivity: 0.5399999999999999
+
+Sentence: Tactic: fund a TPM Project Manager in each of 6 regions and 
+Project Managers in manufacturing in construction.
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: Project 
+managers will be employed through regional organizations 
+(e.g. colleges, chambers, economic development groups ).
+
+Polarity: 0.2
+Subjectivity: 0.2
+
+Sentence: Outcomes : 30 employer collaboratives to align training and 
+recruitingTPM Implementation
+Goal : invest in training infrastructure, equipment,
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: curriculum
+Tactic: supplement Workforce development Training Fund 
+over 2 -years, and invest in simulators and mobile training 
+equipment to cover acquisition costs for colleges and industry 
+organizations
+Outcomes : 3,790 ongoing “training slots” made available per 
+year
+Idaho Launch
+Goal: provide financial assistance to Idahoans to access the 
+training
+Tactic: provide financial assistance to approved job trainees, 
+as well as tech improvements to increase public access and 
+community outreach and engagement activities
+Outcomes : 6,370 trainees receiving financial assistance by 
+December 31, 2023Next Steps Idaho
+Goal: improve technology resources that connect individuals 
+to jobs –including work -based learning
+Tactic: tech improvements to increase public access and 
+delivery of Next Steps Idaho, including resume and cover 
+letter builder by December 31, 2023
+Outcomes : 1,000 Idahoans with Next Steps Idaho portfoliosWorkforce Support
+The examples included throughout this document are based on recipient reports and their inclusion in this document does not c onstitute an explicit approval of these projects by Treasury.
+Polarity: 0.05
+Subjectivity: 0.06666666666666667
+
+Sentence: 16
+Job Training: Case Study
+U.S. Department of the Treasury, Coronavirus State & Local Fiscal Recovery FundsState of Connecticut invests $70M in rolling out CareerConneCT through the Office of Workforce Strategy.
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: The 
+program will focus on job training programs aimed at getting unemployed inviduals or individuals significantly 
+impacted by the pandemic back to work in high demand industries:
+
+Polarity: 0.17833333333333334
+Subjectivity: 0.4716666666666667
+
+Sentence: Train and place 
+5,500- 7,000 
+students and job 
+seekers into in -
+demand industries 
+with a focus on 
+reentry for 
+formerly 
+incarcerated 
+inviduals to 
+transition back to 
+the workforce5 Regional Workforce Development Boards 
+collaborate with regional training providers and 
+companies to inform the design of each applicationHealthcare
+Manufacturing
+IT
+Bioscience
+Clean Energy
+ConstructionAdditional Resources to support education and 
+training to expand state’s healthcare workforce Collaboration with 26 Non -profit organizations to 
+support rollout and implementation
+Creation of multiple non -degree training programs 
+with pipeline into high -paying jobs in bioscience 
+industryAchieve the 
+following goal:Through the 
+following levers:Into the following 
+industries:Workforce Support
+The examples included throughout this document are based on recipient reports and their inclusion in this document does not c onstitute an explicit approval of these projects by Treasury.
+Polarity: 0.06583333333333334
+Subjectivity: 0.19250000000000003
+
+Sentence: 10
+U.S. DEPARTMENT OF THE TREASURY  
+OFFICE OF RECOVERY PROGRAMS:  AMERICAN RESCUE PLAN SECOND ANNIVERSARY
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: REPORTSupporting small businesses
+SLFRF recipients have budgeted $4.4 billion for over 1,100 projects to support 
+small businesses and small business development.
+
+Polarity: -0.25
+Subjectivity: 0.4000000000000001
+
+Sentence: The ARP and other recovery programs included decisive action to stabilize small businesses, 
+helping them keep their doors open and staff on payroll.  
+Polarity: -0.06875
+Subjectivity: 0.34375
+
+Sentence: But beyond the immediate crisis, the ARP 
+is supporting transformational investments in expanding access to credit and entrepreneurship 
+support in underserved communities, including providing technical assistance and grants that provide 
+investment capital and loans to small, minority, and women-owned businesses.
+Polarity: 0.0
+Subjectivity: 0.25
+
+Sentence: These programs will 
+expand opportunity, strengthen the economy in places underserved for far too long, and increase 
+our resilience to the next crisis.
+Polarity: 0.016666666666666666
+Subjectivity: 0.4666666666666666
+
+Sentence: These investments complement other Administration investments 
+including the ARP’s  State Small Business Credit Initiative , which is discussed in more detail below.
+
+Polarity: 0.041666666666666664
+Subjectivity: 0.425
+
+Sentence: Examples of how localities are investing their SLFRF into their communities’ small businesses include:
+Cincinnati, Ohio  spent $1 million to deliver operational 
+grants and training to new and established women-
+owned businesses to create job opportunities for 
+residents and entrepreneurship opportunities for 
+women, including women in business that have carried 
+a disproportionately high burden in managing the 
+social challenges of the pandemic. 
+
+Polarity: -0.004060606060606058
+Subjectivity: 0.31224242424242427
+
+Sentence: McHenry County, Illinois  obligated more than $1 
+million for the Advance McHenry County Manufacturing 
+Initiative, which provides manufacturers with 
+customizable technical assistance and training 
+solutions to rebound from the pandemic, be more 
+globally competitive, and increase resilience to future 
+economic shocks.
+Polarity: 0.19999999999999998
+Subjectivity: 0.23750000000000002
+
+Sentence: The program is a partnership 
+between the county’s college system and workforce 
+network board that offers ten categories of technical 
+assistance aligned with the U.S. Department of 
+Commerce’s Baldridge Performance Excellence 
+Framework. 
+
+Polarity: 0.03333333333333333
+Subjectivity: 0.03333333333333333
+
+Sentence: Lee County, Florida  obligated $250,000 to assist small 
+businesses disproportionately affected by COVID-19 
+by targeting businesses in Qualified Census Tracts and 
+low- and moderate-income designated areas who had 
+substantial declines in gross receipts and have less 
+access to credit.
+Polarity: -0.10416666666666666
+Subjectivity: 0.19166666666666665
+
+Sentence: The project will provide technical 
+assistance, counseling, or business planning services to 
+provide individualized and group training in business 
+planning and improvement.
+Polarity: 0.0
+Subjectivity: 0.1
+
+Sentence: The State of Maryland  budgeted $70 million to provide 
+financial support to new or expanding businesses, 
+including by designating funds for the Maryland Small, 
+Minority, and Women-Owned Businesses Account, 
+which gives grants to eligible fund managers to provide 
+investment capital and loans to small, minority, and 
+women-owned businesses. 
+
+Polarity: -0.09090909090909091
+Subjectivity: 0.3136363636363636
+
+Sentence: Sacramento County, California budgeted nearly 
+$3 million to provide assistance to small businesses 
+that were negatively impacted by COVID-19 through 
+outreach, technical assistance, training, and one-on-
+one consulting in various languages to engage hard-to 
+reach businesses using culturally appropriate methods. 
+
+Polarity: 0.00833333333333334
+Subjectivity: 0.38333333333333336
+
+Sentence: The Douglas Indian Association  developed a Tribal 
+Fisherman Grant to assist small business owners who 
+have maintained a historic Tribal presence in the 
+commercial fishing and seafood industry.
+Polarity: -0.0375
+Subjectivity: 0.175
+
+Sentence: Demand for 
+fresh seafood plummeted as restaurants, hotels, and 
+catering businesses shuttered during the pandemic. 
+
+Polarity: 0.3
+Subjectivity: 0.5
+
+Sentence: The grants intend to offset the escalating fuel costs, 
+transportation restrictions, and a decrease in salmon 
+catches to help Tribal citizens economically recover.11
+U.S. DEPARTMENT OF THE TREASURY  
+OFFICE OF RECOVERY PROGRAMS:  AMERICAN RESCUE PLAN SECOND ANNIVERSARY REPORTInvesting in infrastructure
+SLFRF is allowing state, local, Tribal, and territorial governments to make 
+key investments in infrastructure projects that respond to needs that were 
+highlighted by the pandemic and that will support future economic growth. 
+
+Polarity: 0.07142857142857142
+Subjectivity: 0.3178571428571429
+
+Sentence: Overall, more than 2,600 governments have budgeted more than $24 billion for almost 7,500 critical 
+infrastructure projects that support expanded access to high-speed internet and clean water.  
+Polarity: 0.2733333333333333
+Subjectivity: 0.5
+
+Sentence: SLFRF 
+is helping states and localities to further supercharge the additional historic federal investments in 
+infrastructure delivered by the Biden-Harris Administration through the Bipartisan Infrastructure Law 
+and complementing the ARP investment in expanded affordable highspeed internet access through 
+the Capital Projects Fund, which is discussed in more detail below.
+
+Polarity: 0.16666666666666666
+Subjectivity: 0.3333333333333333
+
+Sentence: In January 2022, when Treasury issued the final rule  for SLFRF, it included an expanded set of eligible 
+lead remediation uses, including replacement of faucets and fixtures in schools and daycares, and 
+confirmed recipients’ ability to use funds for the replacement of lead services lines.
+Polarity: 0.2
+Subjectivity: 1.0
+
+Sentence: Recipients have 
+budgeted over $365 million in lead remediation projects.  
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: Recognizing that not all households and 
+communities are served by water and sewer systems, the final rule also expanded eligible uses to 
+include infrastructure to improve access to safe drinking water for families served by residential wells. 
+
+Polarity: 0.25
+Subjectivity: 0.75
+
+Sentence: Examples of how governments are investing their SLFRF in infrastructure projects include:
+The State of Alabama  budgeted $51 million to develop 
+a statewide middle-mile fiber network that will support, 
+catalyze, and facilitate future last-mile projects. 
+
+Polarity: 0.0
+Subjectivity: 0.125
+
+Sentence: American Samoa  budgeted $10 million for broadband 
+development as the pandemic made clear that remote 
+work, distance learning, and telehealth are essential 
+services.
+Polarity: 3.469446951953614e-18
+Subjectivity: 0.22083333333333333
+
+Sentence: The territory will work with local internet 
+service providers to support the delivery of internet 
+service that reliably meets or exceeds symmetrical 
+upload and download speeds of 100 mbps. 
+
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: Carroll County, Maryland  budgeted $15 million to 
+make investments in broadband infrastructure in 
+response to COVID-19 when households and businesses 
+lacking reliable high-speed service were at a significant 
+disadvantage in areas such as educational, economic, 
+and health opportunities.
+Polarity: 0.20625
+Subjectivity: 0.45625
+
+Sentence: Carroll County will increase 
+access to the 12% of Carroll households and businesses 
+currently unserved by a high-speed connection by 
+providing 100/100 mbps service that will include an 
+option for low-income customers.
+Polarity: 0.0
+Subjectivity: 0.4
+
+Sentence: Janesville, Wisconsin  budgeted over $2 million in 
+order to improve drinking water quality by replacing 
+publicly owned lead pipes. 
+
+Polarity: 0.0
+Subjectivity: 0.06666666666666667
+
+Sentence: Rankin County, Mississippi  budgeted $26 million for 
+45 projects that are improving water quality protection, 
+floodplain management, environmental restoration, 
+and wetlands restoration.
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: 12
+U.S. DEPARTMENT OF THE TREASURY  
+OFFICE OF RECOVERY PROGRAMS:  AMERICAN RESCUE PLAN SECOND ANNIVERSARY REPORTCapital Projects Fund
+The American Rescue Plan’s Coronavirus Capital Projects Fund (CPF) is a $10 billion down payment on 
+the Biden-Harris Administration’s goal of connecting every American household to affordable, reliable 
+high-speed Internet.  
+Polarity: -0.031111111111111117
+Subjectivity: 0.05777777777777778
+
+Sentence: In addition to broadband infrastructure, CPF funds can also be invested in other 
+critical capital projects that enable work, education, and health monitoring in response to the public 
+health emergency, including laptops, public Wi-Fi, and multipurpose community centers.
+
+Polarity: -0.03125
+Subjectivity: 0.32708333333333334
+
+Sentence: To date, the CPF has awarded approximately $5 billion to 34 states that will be invested in high-speed 
+internet infrastructure estimated by states to reach more than 1.4 million homes and businesses.
+Polarity: 0.04999999999999999
+Subjectivity: 0.55
+
+Sentence: To 
+date, CPF has additionally awarded more than $38.5 million to 231 Tribal governments, and maintains 
+an updated list of Tribal projects as they are awarded . 
+
+Polarity: 0.5
+Subjectivity: 0.5
+
+Sentence: Putting broadband affordability front and center:  
+Polarity: -0.1
+Subjectivity: 0.1
+
+Sentence: CPF is designed to not only connect families 
+to the Internet, but ensure that their connection is affordable.
+Polarity: 0.0
+Subjectivity: 1.0
+
+Sentence: As a result, Treasury requires that 
+all service providers participate in the Federal Communications Commission (FCC)’s
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: Affordable 
+Connectivity Program  (ACP) —which provides a discount of up to $30 per month to qualifying 
+households (or up to $75 per eligible household on Tribal lands). 
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: To further lower costs, President 
+Biden and Vice President Harris announced the Administration has secured commitments from 20 
+leading internet service providers—covering more than 80% of the U.S. population—to offer all ACP-
+eligible households high-speed, high-quality internet plans for no more than $30 per month.
+Polarity: 0.08333333333333333
+Subjectivity: 0.5
+
+Sentence: As a result 
+of this agreement and the ACP , eligible households can receive internet access at no cost and can 
+check their eligibility and sign up at  GetInternet.gov .
+
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: Laying the groundwork for future investments:  
+Polarity: 0.0
+Subjectivity: 0.125
+
+Sentence: In addition to the $10 billion provided by CPF, 
+governments have reported budgeting an additional nearly $7.3 billion in SLFRF funds towards 
+broadband.
+Polarity: 0.1
+Subjectivity: 0.4
+
+Sentence: Together, these funds can be blended and braided to have a greater impact.
+Polarity: 0.5
+Subjectivity: 0.5
+
+Sentence: The ARP 
+programs and the Bipartisan Infrastructure Law are also working in tandem to close the digital  
+divide—deploying high-speed internet to those without access and lowering costs for those who 
+cannot afford it. 
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: Treasury additionally entered into a Memorandum of Understanding on May 12, 2022, 
+with the FCC, the National Telecommunications and Information Administration at the Department 
+of Commerce, and the Department of Agriculture to, among other things, develop consistent and 
+complementary reporting processes and share information with each other about broadband projects.   
+
+Polarity: 0.0
+Subjectivity: 0.3333333333333333
+
+Sentence: Treasury continues to make progress reviewing and approving states’ CPF applications, and will be 
+announcing additional awards for states’ broadband plans throughout 2023.
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: 13
+U.S. DEPARTMENT OF THE TREASURY  
+OFFICE OF RECOVERY PROGRAMS:  AMERICAN RESCUE PLAN SECOND ANNIVERSARY REPORTExamples of how states are investing their CPF awards include:
+Louisiana  was approved for $176.7 million 
+(representing 100% of its available CPF funding) for 
+the state’s new Granting Unserved Municipalities 
+Broadband Opportunities (GUMBO) program, a multi-
+phase, broadband infrastructure competitive grant 
+program.  
+Polarity: 0.1340909090909091
+Subjectivity: 0.21363636363636362
+
+Sentence: Louisiana estimates that projects receiving 
+funding from this CPF award will close the digital divide 
+for approximately 25% of all locations lacking high-
+speed internet access in the state and connect nearly 
+88,500 homes and businesses currently lacking access 
+to internet at speeds of 25/3 Mbps.
+
+Polarity: -0.028000000000000004
+Subjectivity: 0.388
+
+Sentence: Virginia  was approved for $219.8 million (representing 
+100% of its available CPF funding) and will use funds 
+to expand last-mile broadband access to an estimated 
+76,873 locations, approximately 28% of locations the 
+state estimates lack access to high-quality broadband 
+service.
+Polarity: 0.0
+Subjectivity: 0.5
+
+Sentence: Through a competitive grant-making program 
+overseen by the Virginia Telecommunication Initiative 
+(VATI), local governments in partnership with internet 
+service providers apply for funds with the goal of 
+deploying universal coverage solutions in the localities 
+involved.
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: West Virginia  was approved for $136.3 million 
+(representing 100% of its available CPF funding), and 
+estimates that projects receiving funding from this CPF 
+award will serve 20,000 locations, or approximately 
+10% of locations in the state that lack access to high-
+speed internet.  
+Polarity: 0.05333333333333334
+Subjectivity: 0.5133333333333333
+
+Sentence: The state will use three separate grant 
+programs that focus funding for last-mile connections 
+to homes and businesses currently without access 
+to internet at speeds of at least 25/3 Mbps.
+Polarity: -0.15
+Subjectivity: 0.4
+
+Sentence: The Line 
+Extension Advancement and Development Program 
+(LEAD) will fund the extensions of last-mile broadband 
+networks that can be constructed quickly, the Major 
+Broadband Projects Strategies Program (MBPS) will 
+fund larger-scale projects designed to serve large 
+numbers of eligible addresses, and GigReady will 
+provide local governments with the opportunity 
+to utilize SLFRF as matching funds for broadband 
+infrastructure projects.  
+Polarity: 0.1525297619047619
+Subjectivity: 0.35714285714285715
+
+Sentence: Each of these three programs 
+is designed to enable funding to reach areas that are 
+hardest to serve due to low population density, rurality, 
+or other factors.
+
+Polarity: -0.08333333333333333
+Subjectivity: 0.35000000000000003
+
+Sentence: 14
+U.S. DEPARTMENT OF THE TREASURY  
+OFFICE OF RECOVERY PROGRAMS:  AMERICAN RESCUE PLAN SECOND ANNIVERSARY REPORTCPF Awards to Date
+Recipient Locations Served 
+(estimated by states)Award Amount
+(Millions) 
+Alabama 55,000 $191.9 
+Arizona 127,807 $99.4 
+Arkansas 35,000 $158 
+Colorado 18,000 $170.8 
+Connecticut 10,000 $41 
+Florida 48,400 $248 
+Georgia 70,000 $250 
+Illinois 87,163 $253.68 
+Indiana 55,349 $203 
+Iowa 18,972 $152 
+Kansas 21,300 $84 
+Kentucky 45,000 $182.8 
+Louisiana 88,500 $177 
+Maine 22,500 $110 
+Maryland 16,667 $95 
+Massachusetts 16,000 $145 
+Michigan 67,857 $250 
+Minnesota 32,917 $127 
+Missouri 37,979 $196.7 
+Nebraska 21,000 $88 
+Nevada 40,187 $55.2 
+New Hampshire 24,000 $122 
+New Mexico 40,611 $117 
+North Carolina 78,100 $177.7 
+North Dakota 3,965 $45 
+South Carolina 31,650 $185.8 
+Tennessee 50,000 $185 
+Texas 152,000 $363.8 
+Utah 3,080 $10 
+Vermont 13,818 $90 
+Virginia 76,873 $220 
+West Virgina 20,000 $136 
+Wisconsin 8,000 $40 
+Wyoming 11,700 $70.5 
+1,449,395 $5,041 15
+U.S. DEPARTMENT OF THE TREASURY  
+OFFICE OF RECOVERY PROGRAMS:  AMERICAN RESCUE PLAN SECOND ANNIVERSARY REPORTEmergency Rental Assistance Program
+The COVID-19 pandemic put millions of renters at risk of losing their homes, aggravating a crisis in 
+housing affordability that pre-dated the pandemic.
+Polarity: 0.04545454545454545
+Subjectivity: 0.15151515151515152
+
+Sentence: By December 2020, nearly one in five renters 
+reported being behind on rent, with renters of color especially likely to report being behind.  
+Polarity: -0.17500000000000002
+Subjectivity: 0.7
+
+Sentence: One in 
+seven renters viewed the risk of eviction within the next two months as “very likely. ” 
+
+Polarity: 0.0
+Subjectivity: 0.5
+
+Sentence: The Emergency Rental Assistance (ERA) program has provided a critical lifeline to renters throughout 
+the pandemic, while helping to build lasting eviction prevention infrastructure across the country. 
+
+Polarity: 0.0
+Subjectivity: 0.4
+
+Sentence: Despite projections of an eviction “tsunami” following the end of the CDC eviction moratorium 
+in August 2021, eviction filings nationally in 2021 remained 26% below historic averages in the 10 
+months since the end of the moratorium, based on an  analysis of data  collected by the Eviction Lab at 
+Princeton University, and remained at pre-pandemic levels in 2022.
+Polarity: 0.0
+Subjectivity: 0.05
+
+Sentence: Matthew Desmond—the founder of 
+Princeton University’s Eviction Lab—has said that in conjunction with the federal eviction moratorium, 
+ERA reflects the “the deepest investment in low-income renters the federal government has made 
+since the nation launched its public housing system” and “the most important eviction prevention 
+policy in American history. ”
+Polarity: 0.225
+Subjectivity: 0.39166666666666666
+
+Sentence: Altogether, ERA has made $46.55 billion available to promote housing 
+stability—$25 billion under the ERA1 program, which Congress created at the end of 2020, and $21.55 
+billion under the ERA2 program established by the ARP .  
+
+Polarity: 0.4
+Subjectivity: 0.4
+
+Sentence: Treasury took swift action to deliver assistance to millions of renters: The Administration 
+worked swiftly to disburse tens of billions of dollars in ERA funds to jurisdictions around the country. 
+
+Polarity: 0.1
+Subjectivity: 0.1
+
+Sentence: At the same time, Treasury provided extensive support to hundreds of communities as they created 
+unprecedented rental assistance and housing stability infrastructure through the ERA program.
+Polarity: 0.19999999999999998
+Subjectivity: 0.4527777777777778
+
+Sentence: The 
+result was that an eviction spike that might have occurred absent the moratorium never materialized. 
+
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: Princeton’s Eviction Lab found that in 2021 alone, the ERA program, in conjunction with other 
+Administration policies, helped to prevent 1.36 million eviction cases—a  conservative estimate 
+because the financial effects of the pandemic put at least twice as many renters as normal at risk 
+of eviction .
+Polarity: 0.045
+Subjectivity: 0.38499999999999995
+
+Sentence: Through December 2022, the ERA program has made over 10.3 million rental assistance 
+payments, and the vast majority of ERA funding has been deployed in communities across the country. 
+
+Polarity: 0.0
+Subjectivity: 1.0
+
+Sentence: Treasury developed flexible program guidance and reallocated program funds, steps which 
+both maximized and accelerated assistance for renters:  Flexibilities in Treasury’s guidance—such 
+as fact-specific proxies and self-attestation—allowed programs to simplify documentation requirements 
+while promoting strong program integrity, ensuring that communities could deliver assistance to renters 
+in need quickly.
+Polarity: 0.2888888888888889
+Subjectivity: 0.5111111111111111
+
+Sentence: In addition, Treasury has reallocated over $4.3 billion of ERA funds—maximizing the 
+support available to renters by shifting funds that could otherwise go unspent to jurisdictions with 
+demonstrated need for assistance and program capacity.
+Polarity: 0.4
+Subjectivity: 0.4
+
+Sentence: Reallocation has incentivized best practices 
+to facilitate assistance as well.
+Polarity: 1.0
+Subjectivity: 0.3
+
+Sentence: For instance, Treasury allowed some jurisdictions to retain funds at risk 
+of reallocation by adopting plans to improve program performance.
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: Hundreds of communities have 
+received additional funds through reallocation—often through voluntary reallocation processes in which 
+grantees worked together to shift funds between one another.  
+
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: The ERA program catalyzed a broad expansion in lasting eviction-prevention infrastructure 
+and expanded affordable housing:  Treasury’s ERA guidance has empowered communities to 
+leverage ERA resources to expand eviction prevention services, including eviction diversion programs, 16
+U.S. DEPARTMENT OF THE TREASURY  
+OFFICE OF RECOVERY PROGRAMS:  AMERICAN RESCUE PLAN SECOND ANNIVERSARY REPORThousing counseling, and other initiatives.
+Polarity: -0.0125
+Subjectivity: 0.1375
+
+Sentence: While eviction diversion programs were uncommon before the 
+pandemic, at least 180 jurisdictions across 36 states have launched or strengthened eviction diversion 
+programs with ERA,  seeding initiatives that have significantly limited eviction rates.
+Polarity: 0.14285714285714288
+Subjectivity: 0.5142857142857142
+
+Sentence: Treasury has also 
+encouraged governments to leverage ERA2 funds to expand affordable housing, helping communities 
+address long-term housing affordability challenges.
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: Governments have continued to fund these 
+programs with other sources of funding—including SLFRF—after spending through ERA allocations. 
+
+Polarity: -0.125
+Subjectivity: 0.375
+
+Sentence: Advancing equity and reaching historically marginalized communities, including Tribal 
+and rural communities:  Throughout its work on ERA, Treasury has prioritized advancing equity and 
+supporting renters in underserved, marginalized communities.
+Polarity: 0.08333333333333333
+Subjectivity: 0.08333333333333333
+
+Sentence: Research has found  that renters from 
+marginalized groups and those most likely to face eviction have benefited from ERA: extremely low-
+income renters received close to two-thirds of ERA assistance, women received nearly 70 percent, and 
+Black renters received almost half.
+Polarity: 0.04444444444444445
+Subjectivity: 0.46666666666666673
+
+Sentence: Treasury has also provided extensive support to Tribal communities 
+to ensure that Tribal ERA programs have been well-positioned to serve renters, and took significant 
+policy steps in reallocation to maximize the ERA funding available to Tribal governments.
+Polarity: 0.25833333333333336
+Subjectivity: 0.5361111111111111
+
+Sentence: Finally, to 
+strengthen ERA in rural communities, Treasury engaged with ERA programs in rural areas to support 
+both their outreach strategies and facilitate statewide coordination on housing stability issues.
+
+Polarity: 0.0
+Subjectivity: 0.3333333333333333
+
+Sentence: Looking forward, in addition to communities using ERA 2 to promote direct assistance and longer-
+term needs, many communities are continuing to provide support to renters after expending their ERA 
+funds, often leveraging SLFRF.
+Polarity: 0.3
+Subjectivity: 0.45
+
+Sentence: Through December 31, 2022, communities provided rent, mortgage or 
+utility assistance to more than 3.6 million individuals using SLFRF.  
+Polarity: 0.5
+Subjectivity: 0.5
+
+Sentence: Moreover, communities are working 
+to build on the eviction prevention infrastructure that ERA has helped to grow, and Treasury continues 
+to work with and encourage these governments to take additional steps to prevent evictions and 
+promote housing stability in the long term.
+
+Polarity: -0.05
+Subjectivity: 0.4
+
+Sentence: Examples of jurisdictions’ work to support renters with ERA include: 
+Pierce County, Washington  conducted far-reaching 
+outreach to stand up its ERA program, as the county 
+had not previously invested in rental assistance 
+infrastructure.
+Polarity: 0.08333333333333333
+Subjectivity: 0.16666666666666666
+
+Sentence: Clark County conducted more than 200 
+outreach events at libraries, sent postcards to residents 
+in 45 languages with information on rental assistance, 
+and pursued targeted outreach to underserved 
+communities.
+Polarity: 0.5
+Subjectivity: 0.5
+
+Sentence: Washington State has now funded a 
+permanent rental assistance program.
+
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: The State of Alaska , in partnership with the 
+Municipality of Anchorage and 15 agencies representing 
+148 Tribes, launched a mobile-friendly ERA application 
+that included text messaging features to facilitate 
+applications.
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: Due in part to the ease of applying, 
+approximately one-third of Alaskan renters applied to 
+the State’s program.
+Polarity: -0.2625
+Subjectivity: 0.4875
+
+Sentence: Washington, DC  leveraged flexibilities in Treasury’s  
+ERA guidance—including self-attestation and fact-
+specific proxies—to ensure that rental assistance was 
+timely delivered to eligible households.
+Polarity: 0.0
+Subjectivity: 0.125
+
+Sentence: DC has also 
+leveraged its own funding resources to continue a 
+rental assistance program, and recently worked with 
+a task force of community leaders across sectors to 
+release a framework  for further efforts to strengthen 
+eviction prevention. 
+
+Polarity: 0.19999999999999998
+Subjectivity: 0.5833333333333334
+
+Sentence: Wichita, Kansas  expanded ERA access by providing 
+self-service ERA application kiosks around the city, 
+with particular focus on low-income communities.
+Polarity: 0.16666666666666666
+Subjectivity: 0.3333333333333333
+
+Sentence: In 
+addition, the City worked to provide case management 
+services for households facing eviction in order 
+to address underlying causes of housing stability, 
+including through connections to job training and other 
+services and relocation to more affordable housing.
+Polarity: 0.1875
+Subjectivity: 0.4375
+
+Sentence: 17
+U.S. DEPARTMENT OF THE TREASURY  
+OFFICE OF RECOVERY PROGRAMS:  AMERICAN RESCUE PLAN SECOND ANNIVERSARY REPORTHomeowner Assistance Fund
+The Homeowner Assistance Fund (HAF) was designed to support homeowners experiencing financial 
+hardship, working in conjunction with a range of other foreclosure prevention initiatives implemented 
+by the Biden-Harris Administration that has resulted in historically low foreclosure filings.
+Polarity: -0.025
+Subjectivity: 0.135
+
+Sentence: HAF 
+programs across the country are assisting homeowners both by providing nearly $10 billion in direct 
+assistance and by helping homeowners access relief through their mortgage servicers, including loss 
+mitigation on government-backed loans.  
+
+Polarity: 0.1
+Subjectivity: 0.4
+
+Sentence: The Administration’s swift actions to prevent foreclosures, including HAF, have 
+resulted in historically low foreclosure rates:  The Administration took a range of actions to 
+prevent foreclosures shortly after the COVID-19 outbreak, including a foreclosure moratorium, 
+increased options for mortgage payment forbearance, and enhanced loan modifications to resolve 
+delinquencies, which together with HAF have helped keep mortgage delinquencies and foreclosures 
+below pre-pandemic levels.  
+Polarity: 0.0
+Subjectivity: 0.3
+
+Sentence: HAF programs began to provide assistance in early 2022 to build on the 
+progress of the earlier initiatives; as of December 2022, HAF has provided a lifeline to over 230,000 
+families at risk of losing their homes.  
+Polarity: 0.05
+Subjectivity: 0.4
+
+Sentence: Total obligations and expenditures across the program more 
+than doubled from July through the end of September—and real-time dashboards published by 
+many states show significant further acceleration in the months since then.
+Polarity: 0.275
+Subjectivity: 0.625
+
+Sentence: Despite the economic 
+disruptions caused by COVID-19, foreclosure starts are 30% below pre-pandemic levels, according to 
+Black Knight data, even after the expiration of several emergency foreclosure protections from the 
+height of the pandemic.
+
+Polarity: 0.011111111111111118
+Subjectivity: 0.2111111111111111
+
+Sentence: Treasury’s implementation has lifted up best practices, helping to promote historic reach 
+to low-income areas and underserved communities:  Treasury required recipient governments 
+to target assistance based on data-driven assessments of homeowner needs, with an emphasis on 
+data that identifies disparate hardships across demographic groups.  
+Polarity: 0.5
+Subjectivity: 0.15
+
+Sentence: Moreover, Treasury required a 
+planning process, which included local community input.
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: This process culminated in the submission 
+of plans to Treasury, which provided specific feedback for each of the plans submitted by state, 
+territorial, and Tribal governments with the goal of promoting swift and equitable access to HAF 
+funding.
+Polarity: 0.0
+Subjectivity: 0.125
+
+Sentence: These efforts have helped to produce a more equitable distribution of assistance, with 
+substantially broader reach to economically vulnerable and traditionally underserved homeowners 
+than prior federal mortgage assistance and foreclosure prevention programs: 57% of HAF assistance 
+was delivered to very low-income homeowners (those earning 50% of area median income and below); 
+35% of HAF homeowners self-identified as Black and 20% self-identified as Latino; and 64% of HAF 
+beneficiaries were female.  
+
+Polarity: 0.004761904761904765
+Subjectivity: 0.37857142857142856
+
+Sentence: Treasury has worked closely with agency partners to promote support for HAF  
+recipients–establishing additional protections to help homeowners avoid foreclosure:  
+Treasury has coordinated closely with the White House and other federal agencies to ensure that 
+HAF supplements other federal assistance for homeowners and that funds are most effectively used 
+to help homeowners in need.
+Polarity: 0.16999999999999998
+Subjectivity: 0.41
+
+Sentence: Secretary Yellen and several other Cabinet Secretaries joined together 
+to urge  mortgage servicers to pause all foreclosure proceedings for any homeowner applying for 
+HAF assistance.
+Polarity: -0.0625
+Subjectivity: 0.1875
+
+Sentence: These efforts have led to major servicers implementing foreclosure pauses for HAF 18
+U.S. DEPARTMENT OF THE TREASURY  
+OFFICE OF RECOVERY PROGRAMS:  
+Polarity: 0.0625
+Subjectivity: 0.5
+
+Sentence: AMERICAN RESCUE PLAN SECOND ANNIVERSARY REPORTapplicants, enabled by Treasury’s ongoing work with servicers and states to improve communication 
+and notification of HAF applications.
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: Recently, the Department of Housing and Urban Development 
+announced a policy change that will allow certain HAF applicants and recipients to much more easily 
+access loss mitigation options, which provide additional support to homeowners who may need 
+assistance from multiple sources to stay in their homes.
+
+Polarity: 0.19126984126984126
+Subjectivity: 0.35912698412698413
+
+Sentence: Looking forward, HAF programs continue to provide active assistance across the country.  
+Polarity: -0.13333333333333333
+Subjectivity: 0.6
+
+Sentence: Moreover, 
+several recipient governments have decided to use other Treasury funds—such as funds from the 
+SLFRF program—to provide assistance to additional families in need.
+Polarity: -0.0625
+Subjectivity: 0.1875
+
+Sentence: HAF funds are available to be 
+spent to support homeowners until September 30, 2026.
+Polarity: 0.15000000000000002
+Subjectivity: 0.25
+
+Sentence: Treasury continues to lift up best practices, 
+engage recipient governments on strategies to increase uptake and speed of program funding, and call 
+on servicers to swiftly communicate with states to help homeowners in need.
+
+Polarity: 1.0
+Subjectivity: 0.3
+
+Sentence: Promising Practices include:
+The State of California HAF Program  has focused 
+its outreach on underserved communities through 
+multilingual, culturally competent assistance resources. 
+
+Polarity: 0.35
+Subjectivity: 0.5833333333333333
+
+Sentence: For instance, the HAF application is available in six 
+languages and the program’s contact center—which has 
+handled over 190,000 calls as of Jan. 1, 2023—can  
+provide assistance in more than 200 languages.
+Polarity: 0.45
+Subjectivity: 0.45
+
+Sentence: The  
+state has also worked to keep the application as 
+streamlined as possible; if an applicant has the 
+necessary documents ready, the state estimates that  
+the application can be completed in less than 15 
+minutes.
+Polarity: 0.008333333333333338
+Subjectivity: 0.6416666666666667
+
+Sentence: Due to these efforts, as of Jan. 1, 2023, 88% of 
+applicants surveyed by the program (5,676 applicants) 
+reported that the application was easy to complete, and 
+91% said the documents were easy to upload.
+
+Polarity: 0.21041666666666667
+Subjectivity: 0.6104166666666667
+
+Sentence: The State of Michigan’s HAF program , after 
+conducting a systemwide assessment, realized it 
+needed to increase the availability of customer service 
+agents to help homeowners apply.
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: To quickly increase 
+staff capacity, the HAF program contracted with 
+the state’s 211 service to answer questions, fill out 
+applications for those without internet access, provide 
+status updates to applicants and refer homeowners to 
+other services they need.
+Polarity: 0.10416666666666666
+Subjectivity: 0.4375
+
+Sentence: The State of Nevada’s HAF program uses a data-
+driven approach to recalibrate program offerings based 
+on the most common reasons for application denial, 
+thereby continuously improving its application process 
+and contacting denied applicants to inform them of 
+other opportunities for assistance.
+Polarity: 0.025000000000000005
+Subjectivity: 0.4583333333333333
+
+Sentence: Nevada’s program 
+also directly reached out to applicants who did not 
+return to the website to complete their applications. 
+
+Polarity: 0.1
+Subjectivity: 0.4
+
+Sentence: These efforts, combined with increased marketing, 
+resulted in a 300% increase in households assisted over 
+a three-month period (July through September 2022).19
+U.S. DEPARTMENT OF THE TREASURY  
+OFFICE OF RECOVERY PROGRAMS:  
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: AMERICAN RESCUE PLAN SECOND ANNIVERSARY REPORTState Small Business Credit Initiative
+The State Small Business Credit Initiative (SSBCI), reauthorized and expanded by the American Rescue 
+Plan, provides nearly $10 billion to states, territories, D.C., and Tribal governments for investments 
+in small businesses to expand access to capital, to promote economic resiliency, and to create new 
+jobs and economic opportunity—especially in underserved communities still reeling from the effects 
+of the pandemic.
+Polarity: -0.011363636363636364
+Subjectivity: 0.24545454545454545
+
+Sentence: Small businesses were hit especially hard by the pandemic, in urban, suburban and 
+rural communities alike, as the economy faced a historic disruption.
+Polarity: -0.1388888888888889
+Subjectivity: 0.2333333333333333
+
+Sentence: Building on a prior iteration of the 
+program created in 2010, the SSBCI program provides capital to help existing small businesses expand 
+and new small businesses start up. 
+
+Polarity: -0.09090909090909091
+Subjectivity: 0.3136363636363636
+
+Sentence: Data suggests that the pandemic hit minority-owned small businesses particularly hard, exacerbating 
+disparities that existed long before COVID-19.
+Polarity: -0.19722222222222227
+Subjectivity: 0.44722222222222224
+
+Sentence: The SSBCI gives states and Tribes the tools to support 
+small business lending and startup equity investments in all communities, especially in parts of the 
+country and in marginalized communities working to develop an entrepreneurial finance ecosystem. 
+
+Polarity: -0.125
+Subjectivity: 0.7
+
+Sentence: In doing so, SSBCI is serving as part of the Biden Administration’s broader small business agenda, 
+which has helped support a record-breaking 10.5 million small business applications in 2021 and 2022, 
+according to the Census Bureau. 
+
+Polarity: -0.25
+Subjectivity: 0.4
+
+Sentence: SSBCI will catalyze tens of billions of dollars to expand access to capital for small 
+businesses and underserved entrepreneurs:  SSBCI provides funding that states, territories, 
+and Tribal Governments can use to help small businesses receive loans or equity/venture capital 
+investments to fuel their growth and job creation potential.
+Polarity: -0.16666666666666666
+Subjectivity: 0.6
+
+Sentence: Jurisdictions will deploy SSBCI capital 
+to crowd in private financing in emerging venture capital markets and offer credit-enhancing debt 
+products to help underserved small businesses address capital needs.
+Polarity: -0.125
+Subjectivity: 0.3875
+
+Sentence: With these programs, recipient 
+governments will close gaps left by other state or federal programs, existing private sources of capital, 
+or market-specific challenges.
+Polarity: -0.041666666666666664
+Subjectivity: 0.25
+
+Sentence: Treasury has now approved nearly all state and territorial plans 
+representing 96% of the initial capital program funding allocated to states and territories under the 
+program. 
+Polarity: 0.05
+Subjectivity: 0.2
+
+Sentence: In addition, Treasury is reviewing applications corresponding to over 200 Tribal governments 
+and over $580 million in potential SSBCI funding.
+Polarity: 0.0
+Subjectivity: 1.0
+
+Sentence: SSBCI is designed to catalyze up to $10 of private 
+investment for every $1 of SSBCI funding and is expected to result in tens of billions of dollars in new 
+small business financing across the country before 2030.
+
+Polarity: -0.05340909090909091
+Subjectivity: 0.4073863636363636
+
+Sentence: Supporting innovative approaches to catalyze small business growth:  Recipient governments 
+submitted innovative approaches to deploying the SSBCI in their respective jurisdictions.
+Polarity: 0.2
+Subjectivity: 0.55
+
+Sentence: For example, 
+Minnesota’s Department of Employment and Economic Development (DEED) is implementing an 
+Automation Loan Participation Program (ALPP) through SSBCI.
+Polarity: 0.2
+Subjectivity: 0.2
+
+Sentence: The program offers a companion loan 
+to private financing provided by a lender to purchase machinery, equipment, and software designed to 
+increase manufacturing efficiencies.
+Polarity: 0.05
+Subjectivity: 0.1875
+
+Sentence: The program complements an existing state program that funds 
+training for workers to operate new automation equipment.
+Polarity: 0.13636363636363635
+Subjectivity: 0.45454545454545453
+
+Sentence: Minnesota expects the ALPP to increase 
+the number of re-shored manufacturing operations and allow companies to move some outsourced 
+activities in-house.  
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: 20
+U.S. DEPARTMENT OF THE TREASURY  
+OFFICE OF RECOVERY PROGRAMS:  AMERICAN RESCUE PLAN SECOND ANNIVERSARY REPORTSSBCI has been implemented with an eye towards supporting the most vulnerable 
+businesses and underserved business owners:  
+Polarity: 0.05
+Subjectivity: 0.25
+
+Sentence: The Federal Reserve Banks’ 2021 Small Business 
+Credit Survey reported that only 13% of Black-owned firms and 20% of Hispanic-owned firms received 
+all of the non-emergency funding sought, relative to 40% of white-owned firms—underscoring the 
+need to prioritize equity in the administration of the SSBCI program.
+Polarity: -0.08333333333333333
+Subjectivity: 0.4666666666666666
+
+Sentence: SSBCI is a tool for recipient 
+governments to support small businesses owned by people of color, women, individuals living in rural 
+or Tribal communities, and otherwise underserved individuals, and to support the creation of wealth 
+in households and communities.  
+Polarity: -0.125
+Subjectivity: 0.2
+
+Sentence: SSBCI includes $2.5 billion in funding and incentive allocations to 
+support the provision of capital to underserved businesses and jurisdictions that succeed in reaching 
+those businesses – with $1 billion of these funds to be awarded to jurisdictions based on their success 
+in reaching underserved businesses.
+Polarity: 0.3
+Subjectivity: 0.0
+
+Sentence: In addition, SSBCI includes over $700 million in allocations for 
+Tribal governments, which will be used by hundreds of Tribes to support small businesses owned 
+and operated by Tribal members or that operate on Tribal lands. 
+Polarity: -0.25
+Subjectivity: 0.4
+
+Sentence: The prior version of this program, 
+which ran from 2010 to 2017, did not include these set-asides for underserved groups and Tribal 
+governments.
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: With an eye towards equitable administration, Treasury has also announced a historic 
+data collection effort as part of SSBCI intended to help Treasury analyze the distribution of SSBCI funds 
+and promote and track equity goals in the use of those funds.  
+
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: SSBCI will provide small businesses with hundreds of millions of dollars in technical 
+assistance not only to apply for SSBCI funds, but also a broader set of state and federal small 
+business programs, building capacity for businesses to access capital in the long term:  Treasury 
+has announced the availability of $300 million in technical assistance, with $200 million available to 
+states, territories, D.C., and Tribal governments to provide assistance to qualifying small businesses 
+applying for SSBCI or certain other small business financing.
+Polarity: -0.05097402597402598
+Subjectivity: 0.41331168831168835
+
+Sentence: In addition, Treasury has transferred $100 
+million for a program run by the Minority Business Development Agency at the Department of Commerce, 
+which will provide funding to incubators and accelerators across the country to train underserved 
+entrepreneurs seeking resources from SSBCI and other programs across the country.
+Polarity: -0.125
+Subjectivity: 0.375
+
+Sentence: This technical 
+assistance – along with another $200 million in technical assistance that will be made available in the 
+future – will help ensure that SSBCI supports entrepreneurial ecosystems and creates jobs by allowing 
+small businesses to access a range of small business assistance.
+
+Polarity: -0.016666666666666663
+Subjectivity: 0.25416666666666665
+
+Sentence: SSBCI is a part of broader Treasury initiatives that increase access to capital for small 
+businesses and communities across the country:   
+Polarity: -0.25
+Subjectivity: 0.4
+
+Sentence: For example, through December 2022, 
+Treasury made $8.38 billion in investments to dramatically scale up the work of 170 community 
+financial institutions through the Emergency Capital Investment Program that will increase lending 
+to small businesses, minority-owned businesses, low- and moderate-income consumers and other 
+financially underserved communities.  
+Polarity: -0.075
+Subjectivity: 0.215
+
+Sentence: Additionally, the CDFI Equitable Recovery Program will make 
+approximately $1.75 billion in grants available to provide funding to CDFIs to expand lending, grant 
+making and investment activities in low to moderate income communities and to borrowers with 
+significant unmet capital and financial services needs that have experienced disproportionate 
+economic impacts from the COVID 19 pandemic.  
+Polarity: 0.171875
+Subjectivity: 0.496875
+
+Sentence: These initiatives, paired with broader Treasury 
+and Administration support for small business, have helped support record numbers of new small 
+businesses and strong growth in a range of critical industry sectors.21
+U.S. DEPARTMENT OF THE TREASURY  
+OFFICE OF RECOVERY PROGRAMS:  
+Polarity: 0.013939393939393929
+Subjectivity: 0.5575757575757576
+
+Sentence: AMERICAN RESCUE PLAN SECOND ANNIVERSARY REPORTTreasury has now approved 51 out of 56 state and territory plans, representing 96% of the capital 
+funds allocated to states and territories, while continuing to review Tribal submissions.  
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: In the coming 
+months, SSBCI programs will continue ramping up and providing support to small businesses across 
+the country, buttressed by technical assistance funding to help small businesses access assistance.  
+
+Polarity: -0.16666666666666666
+Subjectivity: 0.3
+
+Sentence: Illustrative examples of SSBCI programs include:
+
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: Engaging Underserved Business Owners in Utah: 
+Utah’s Governor’s Office of Economic Opportunity (“Go 
+Utah”) developed SSBCI programs focused on filling 
+capital needs for small businesses that are historically 
+underserved.
+Polarity: 0.09000000000000001
+Subjectivity: 0.32
+
+Sentence: Utah operates several credit support 
+programs, including a Capital Access Program that 
+is anticipated to provide micro-loans to socially and 
+economically disadvantaged small businesses that may 
+have a limited credit history or face collateral shortfalls, 
+while the Loan Participation Program partners with 
+community development financial institutions to 
+provide slightly larger loans for small businesses that 
+may not be fully integrated into the conventional 
+market. 
+
+Polarity: -0.042328042328042326
+Subjectivity: 0.3074074074074074
+
+Sentence: Reaching Rural Businesses in Montana:  The Montana 
+Department of Commerce operates a loan participation 
+program through the Montana Board of Investment 
+(MBIV) with a goal of enabling businesses statewide 
+to access the programs.
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: MBIV developed a network 
+of lenders across the state, including Community 
+Development Financial Institutions and local revolving 
+loan funds.
+Polarity: 0.03333333333333333
+Subjectivity: 0.09999999999999999
+
+Sentence: Growing the Innovation Ecosystem in Rural Vermont:  
+
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: Vermont is implementing a venture capital program 
+to invest in start-ups across the state, with a focus on 
+growing the innovation ecosystem outside Vermont’s 
+more populous hubs.
+Polarity: 0.25
+Subjectivity: 0.275
+
+Sentence: Areas of concentration include 
+renewable energy, innovative agriculture solutions, 
+advanced manufacturing, and healthcare companies. 
+
+Polarity: 0.45
+Subjectivity: 0.8
+
+Sentence: Enabling Diverse Venture Capital Managers in 
+Pennsylvania:  In October 2022, Pennsylvania 
+announced their first commitment of SSBCI funds 
+through their venture capital program.  
+Polarity: 0.25
+Subjectivity: 0.3333333333333333
+
+Sentence: The program 
+is focused on supporting venture capital investments 
+in new funds under the management of underserved 
+venture capital firms and on reaching underserved 
+entrepreneurs.
+
+Polarity: 0.19318181818181818
+Subjectivity: 0.3522727272727273
+
+Sentence: 22
+U.S. DEPARTMENT OF THE TREASURY  
+OFFICE OF RECOVERY PROGRAMS:  AMERICAN RESCUE PLAN SECOND ANNIVERSARY REPORTHistoric Tax Relief for Working Families and Record Low  
+Child Poverty 
+
+Polarity: 0.0
+Subjectivity: 0.09999999999999999
+
+Sentence: The ARP delivered the largest ever Child Tax Credit, the largest ever Earned Income Tax Credit for 
+workers without dependent children, and the largest ever Child and Dependent Care Tax Credit, 
+helping families and low-income workers make ends meet.
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: The advance monthly Child Tax Credit 
+payments, which reached 38 million families with 62 million children, also showed that family tax relief 
+payments could reliably be delivered monthly.
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: Data released by the Census Bureau last year showed 
+that the expanded Child Tax Credit was the leading driver behind a 46% decline in child poverty 
+in 2021, cutting child poverty to its lowest-ever recorded level.
+Polarity: -0.3333333333333333
+Subjectivity: 0.5555555555555555
+
+Sentence: The Administration is committed 
+to rewarding work and fighting child poverty by pushing for Congress to permanently restore the 
+expansion of the Child Tax Credit and Earned Income Tax Credit included within the ARP .
+
+Polarity: 0.5
+Subjectivity: 1.0
+
+Sentence: Additionally, the ARP permanently expanded access to the Child Tax Credit and Earned Income Tax 
+Credit for working families in Puerto Rico.
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: The ARP lifted an exclusion that kept low-income families in 
+Puerto Rico with fewer than three eligible children from benefiting from the Child Tax Credit, leading 
+to 200,000 more families in Puerto Rico receiving the expanded Child Tax Credit when they filed taxes 
+in 2022 compared to the previous year.  
+Polarity: 0.16666666666666669
+Subjectivity: 0.3333333333333333
+
+Sentence: It also helped Puerto Rico to fund a dramatic expansion of the 
+Earned Income Tax Credit, tripling available benefits for workers and bringing the credit broadly in line 
+with the maximum benefit available to a similar family living elsewhere in the United States.
+
+Polarity: 0.08583333333333334
+Subjectivity: 0.4225
+
+Sentence: Saving the Pension Benefits of Millions of Workers,  
+Retirees, and their Families
+The ARP included historic assistance to secure the pension benefits earned by millions of union 
+workers and retirees.
+Polarity: 0.2
+Subjectivity: 0.3
+
+Sentence: Prior to the law, over 200 multiemployer pension plans were on pace to 
+become insolvent.
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: Thanks to the Special Financial Assistance program of the Pension Benefit 
+Guaranty Corporation included in the ARP – the most significant effort to protect the solvency of the 
+multiemployer pension system in almost 50 years – all multiemployer pension plans that receive 
+assistance are positioned to remain solvent through at least 2051, with no cuts to earned benefits. 
+
+Polarity: 0.1886904761904762
+Subjectivity: 0.4244047619047619
+
+Sentence: This assistance will protect the retirement security of an estimated two to three million union workers, 
+retirees, and their families.
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: Already, Special Financial Assistance has been approved for multiemployer 
+pension plans estimated to serve over 680,000 workers, retirees, and their families—ensuring that 
+recipients will receive the full retirement benefits they earned over the coming decades—and harsh 
+benefit cuts for tens of thousands of retirees have been reversed.
+Polarity: 0.12678571428571428
+Subjectivity: 0.45535714285714285
+
+Sentence: 23
+U.S. DEPARTMENT OF THE TREASURY  
+OFFICE OF RECOVERY PROGRAMS:  AMERICAN RESCUE PLAN SECOND ANNIVERSARY REPORTConclusion
+The American Rescue Plan has been a key part of the nation’s recovery from the COVID-19 pandemic 
+and the economic downturn that resulted from it.
+Polarity: 0.04
+Subjectivity: 0.24
+
+Sentence: Treasury has worked to ensure that ARP funds help 
+families, small businesses, and communities get back on their feet and emerge stronger out of this crisis. 
+
+Polarity: -0.125
+Subjectivity: 0.2
+
+Sentence: Treasury has also committed to providing strong stewardship of ARP resources by conducting 
+robust oversight over these funds.
+Polarity: 0.4333333333333333
+Subjectivity: 0.7333333333333333
+
+Sentence: Over the past two years, Treasury has established policies and 
+procedures—in partnership with oversight bodies and state and local auditors—to create appropriate 
+safeguards over the use of taxpayer funds.
+Polarity: 0.08333333333333333
+Subjectivity: 0.25
+
+Sentence: Treasury has built a risk-based, data-driven accountability 
+framework designed to ensure that funds are used for their intended purpose and have the greatest 
+impact in supporting a strong recovery.  
+
+Polarity: 0.5611111111111111
+Subjectivity: 0.6611111111111111
+
+Sentence: Looking ahead, Treasury will continue to work with recipients as they deploy funds in their 
+communities.
+Polarity: 0.0
+Subjectivity: 0.0
+
+Sentence: Treasury will support recipients as they apply best practices, working with them to 
+rapidly deliver assistance to those in need while prioritizing areas likely to strengthen the economy 
+over the long-run, such as affordable housing, workforce, and support for small businesses.
+Polarity: 0.1875
+Subjectivity: 0.55
+
+Sentence: Moreover, 
+Treasury will use the lessons learned through the deployment of ARP funds at Treasury to support 
+implementation of other key legislation, including the Inflation Reduction Act, CHIPS, and the 
+Bipartisan Infrastructure Law.
+Polarity: -0.0625
+Subjectivity: 0.6875
+
+Sentence: Building on the progress of the last two years, the American Rescue Plan 
+will continue to support families, small businesses, and communities in the months and years ahead. 
+
+Polarity: -0.08333333333333333
+Subjectivity: 0.15555555555555556
+
+
+=== Named Entity Recognition (NER) ===
+Entity: March 2023, Label: DATE
+Entity: U.S. DEPARTMENT, Label: ORG
+Entity: TREASURY, Label: ORG
+Entity: 1, Label: CARDINAL
+Entity: 3, Label: CARDINAL
+Entity: Capital Projects Fund, Label: ORG
+Entity: 17, Label: CARDINAL
+Entity: State Small Business Credit Initiative, Label: ORG
+Entity: 19, Label: CARDINAL
+Entity: Historic Tax Relief, Label: PERSON
+Entity: 22, Label: CARDINAL
+Entity: Retirees, Label: ORG
+Entity: Families, Label: ORG
+Entity: 22, Label: CARDINAL
+Entity: U.S. DEPARTMENT, Label: ORG
+Entity: TREASURY, Label: ORG
+Entity: The American Rescue Plan, Label: ORG
+Entity: the coming 
+decades, Label: DATE
+Entity: Yellen, Label: PERSON
+Entity: Rescue Plan, Label: ORG
+Entity: the past two years, Label: DATE
+Entity: Americans, Label: NORP
+Entity: today, Label: DATE
+Entity: 2030, Label: DATE
+Entity: 2023, Label: DATE
+Entity: American Rescue Plan, Label: ORG
+Entity: 2021, Label: DATE
+Entity: 2022, Label: DATE
+Entity: two years, Label: DATE
+Entity: over 50 years, Label: DATE
+Entity: the start of 2023, Label: DATE
+Entity: Hispanic, Label: NORP
+Entity: the American Rescue Plan, Label: ORG
+Entity: March of 2021, Label: DATE
+Entity: the Treasury Department, Label: ORG
+Entity: Americans, Label: NORP
+Entity: more than 150 million, Label: CARDINAL
+Entity: the first few weeks, Label: DATE
+Entity: American, Label: NORP
+Entity: first, Label: ORDINAL
+Entity: monthly, Label: DATE
+Entity: tens of millions, Label: MONEY
+Entity: Tribal, Label: PERSON
+Entity: the last year, Label: DATE
+Entity: American Rescue Plan, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: millions, Label: CARDINAL
+Entity: Americans, Label: NORP
+Entity: over 30,000, Label: CARDINAL
+Entity: Tribal, Label: PERSON
+Entity: over 99%, Label: PERCENT
+Entity: State, Label: ORG
+Entity: Local Fiscal Recovery Funds, Label: ORG
+Entity: Tribal, Label: PERSON
+Entity: the Great Recession, Label: FAC
+Entity: the first 14 quarters, Label: DATE
+Entity: $11.8 billion, Label: MONEY
+Entity: $15.9 billion, Label: MONEY
+Entity: $10.9 billion, Label: MONEY
+Entity: $4.4 billion, Label: MONEY
+Entity: $24.3 billion, Label: MONEY
+Entity: broadband, Label: GPE
+Entity: over 1.4 million, Label: CARDINAL
+Entity: the Capital Projects Fund, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: over 1.4 
+million, Label: CARDINAL
+Entity: 34, Label: CARDINAL
+Entity: millions, Label: CARDINAL
+Entity: December 2022, Label: DATE
+Entity: more than 10.3 million, Label: QUANTITY
+Entity: at least 180, Label: CARDINAL
+Entity: 36, Label: CARDINAL
+Entity: rates.2
+, Label: PERSON
+Entity: U.S. DEPARTMENT, Label: ORG
+Entity: TREASURY, Label: ORG
+Entity: over 230,000, Label: CARDINAL
+Entity: more than 230,000, Label: CARDINAL
+Entity: 2022, Label: DATE
+Entity: 30%, Label: PERCENT
+Entity: Black Knight, Label: ORG
+Entity: up to 100,000, Label: CARDINAL
+Entity: the next decade, Label: DATE
+Entity: two, Label: CARDINAL
+Entity: years, Label: DATE
+Entity: 2021, Label: DATE
+Entity: 2022, Label: DATE
+Entity: Treasury, Label: ORG
+Entity: State Small Business Credit Initiative, Label: ORG
+Entity: 51, Label: CARDINAL
+Entity: the  
+past 12 months, Label: DATE
+Entity: tens of billions of dollars, Label: MONEY
+Entity: 100,000, Label: CARDINAL
+Entity: the next decade, Label: DATE
+Entity: 2022, Label: DATE
+Entity: Treasury, Label: ORG
+Entity: $8.38 billion, Label: MONEY
+Entity: 170, Label: CARDINAL
+Entity: the Emergency 
+Capital Investment Program, Label: ORG
+Entity: 2022, Label: DATE
+Entity: the Census Bureau, Label: ORG
+Entity: Child Tax Credit, Label: WORK_OF_ART
+Entity: American Rescue Plan, Label: ORG
+Entity: 46%, Label: PERCENT
+Entity: 2021, Label: DATE
+Entity: annual, Label: DATE
+Entity: Black, Label: GPE
+Entity: Hispanic, Label: NORP
+Entity: Native American, Label: NORP
+Entity: Asian, Label: NORP
+Entity: fewer than three, Label: CARDINAL
+Entity: the Child Tax Credit, Label: ORG
+Entity: Puerto Rico, Label: GPE
+Entity: 200,000, Label: CARDINAL
+Entity: 2022, Label: DATE
+Entity: a year earlier, Label: DATE
+Entity: 3, Label: CARDINAL
+Entity: U.S. DEPARTMENT, Label: ORG
+Entity: TREASURY, Label: ORG
+Entity: Local Fiscal Recovery Funds
+, Label: ORG
+Entity: $350 billion, Label: MONEY
+Entity: 30,000, Label: CARDINAL
+Entity: Tribal, Label: PERSON
+Entity: COVID-19, Label: ORG
+Entity: Tribal, Label: PERSON
+Entity: the months, Label: DATE
+Entity: 90%, Label: PERCENT
+Entity: half, Label: CARDINAL
+Entity: first, Label: ORDINAL
+Entity: 2021, Label: DATE
+Entity: only two months, Label: DATE
+Entity: second, Label: ORDINAL
+Entity: May 2022, Label: DATE
+Entity: over $11 billion, Label: MONEY
+Entity: more than 5,300, Label: CARDINAL
+Entity: Today, Label: DATE
+Entity: more than 99%, Label: PERCENT
+Entity: NASBO, Label: ORG
+Entity: more  than 90%, Label: PERCENT
+Entity: Treasury, Label: ORG
+Entity: $11.8 billion, Label: MONEY
+Entity: $15.9 billion, Label: MONEY
+Entity: $10.9 billion, Label: MONEY
+Entity: $4.4 billion, Label: MONEY
+Entity: $24.3 billion, Label: MONEY
+Entity: Tribal, Label: PERSON
+Entity: $20 billion, Label: MONEY
+Entity: Indian Country, Label: LOC
+Entity: U.S., Label: GPE
+Entity: Treasury, Label: ORG
+Entity: Tribal, Label: PERSON
+Entity: valuable.4, Label: GPE
+Entity: U.S. DEPARTMENT, Label: ORG
+Entity: TREASURY, Label: ORG
+Entity: The Biden Administration, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: the Final Rule, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: Outcomes Resource Guide, Label: ORG
+Entity: Tribal, Label: PERSON
+Entity: Treasury, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: December 31, 2024, Label: DATE
+Entity: December 31, 2026, Label: DATE
+Entity: 5, Label: CARDINAL
+Entity: U.S. DEPARTMENT, Label: ORG
+Entity: TREASURY, Label: ORG
+Entity: 1,500, Label: CARDINAL
+Entity: nearly $12 billion, Label: MONEY
+Entity: 5,300, Label: CARDINAL
+Entity: COVID-19, Label: PERSON
+Entity: Tribal, Label: PERSON
+Entity: COVID-19, Label: PERSON
+Entity: PPE, Label: ORG
+Entity: COVID-19, Label: ORG
+Entity: COVID-19 public health services, Label: ORG
+Entity: first, Label: ORDINAL
+Entity: 1, Label: CARDINAL
+Entity: Project and Expenditure Reports, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: December 31, Label: DATE
+Entity: 2022, Label: CARDINAL
+Entity: Treasury, Label: ORG
+Entity: The State of Alaska, Label: ORG
+Entity: $40 million, Label: MONEY
+Entity: El Paso, Label: GPE
+Entity: Texas, Label: GPE
+Entity: more than $16 million, Label: MONEY
+Entity: Milwaukee, Label: GPE
+Entity: Wisconsin, Label: GPE
+Entity: over $13 million, Label: MONEY
+Entity: COVID-19 public health services, Label: ORG
+Entity: COVID-19, Label: ORG
+Entity: Allegheny County, Label: GPE
+Entity: Pennsylvania, Label: GPE
+Entity: 14.5, Label: MONEY
+Entity: the county Department of Human 
+Services, Label: ORG
+Entity: The Ninilchik Village, Label: LOC
+Entity: IHS, Label: ORG
+Entity: Alaska, Label: GPE
+Entity: second, Label: ORDINAL
+Entity: the Anchor Point, Label: ORG
+Entity: Alaska, Label: GPE
+Entity: 6, Label: CARDINAL
+Entity: U.S. DEPARTMENT, Label: ORG
+Entity: TREASURY, Label: ORG
+Entity: nearly $16 billion, Label: MONEY
+Entity: more than 2,100, Label: CARDINAL
+Entity: over $5.4 billion, Label: MONEY
+Entity: more than 3.6 million, Label: CARDINAL
+Entity: COVID-19, Label: ORG
+Entity: millions, Label: CARDINAL
+Entity: Treasury, Label: ORG
+Entity: Administration, Label: ORG
+Entity: Housing Supply Action Plan, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: Rental Assistance, Label: WORK_OF_ART
+Entity: the Homeowners Assistance Fund, Label: ORG
+Entity: July 2022, Label: DATE
+Entity: Treasury, Label: ORG
+Entity: 20%, Label: PERCENT
+Entity: The State of Idaho, Label: ORG
+Entity: $50 million, Label: MONEY
+Entity: COVID-19, Label: ORG
+Entity: Mobile, Label: GPE
+Entity: Alabama, Label: GPE
+Entity: more than $4 million, Label: MONEY
+Entity: first, Label: ORDINAL
+Entity: Pensacola, Label: GPE
+Entity: Florida, Label: GPE
+Entity: $3 million, Label: MONEY
+Entity: Rochester, Label: ORG
+Entity: New York, Label: GPE
+Entity: $13 million, Label: MONEY
+Entity: COVID-19, Label: ORG
+Entity: Tarrant County, Label: GPE
+Entity: Texas, Label: GPE
+Entity: more than $33 
+million, Label: MONEY
+Entity: COVID-19, Label: ORG
+Entity: the Tarrant 
+County Housing Finance Corporation, Label: ORG
+Entity: The Knik Tribe, Label: PERSON
+Entity: 32, Label: CARDINAL
+Entity: independence.7, Label: GPE
+Entity: U.S. DEPARTMENT, Label: ORG
+Entity: TREASURY, Label: ORG
+Entity: 7, Label: CARDINAL
+Entity: U.S. Department, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: Coronavirus State & Local Fiscal Recovery FundsPermanent Housing 
+Capital Expense, Label: ORG
+Entity: $14.1M, Label: MONEY
+Entity: Austin, Label: GPE
+Entity: Texas, Label: GPE
+Entity: eight, Label: CARDINAL
+Entity: 95.3, Label: MONEY
+Entity: Austin, Label: GPE
+Entity: 6.1, Label: CARDINAL
+Entity: Provision of Government Services, Label: ORG
+Entity: a larger, Label: DATE
+Entity: three -year, Label: DATE
+Entity: Finding 
+Home ATX, Label: ORG
+Entity: three, Label: CARDINAL
+Entity: 1, Label: CARDINAL
+Entity: 3,000, Label: CARDINAL
+Entity: 2, Label: CARDINAL
+Entity: 1,300, Label: CARDINAL
+Entity: 3, Label: CARDINAL
+Entity: Homelessness Response System, Label: ORG
+Entity: $2.5M, Label: MONEY
+Entity: Shelter & Crisis 
+Services, Label: ORG
+Entity: $10.0M, Label: MONEY
+Entity: Housing Programs, Label: ORG
+Entity: $45.0M, Label: MONEY
+Entity: 24 months, Label: DATE
+Entity: Providers, Label: WORK_OF_ART
+Entity: $5.2M, Label: MONEY
+Entity: Homelessness Response 
+System, Label: PERSON
+Entity: Landlord Engagement, Label: PERSON
+Entity: $5.0M, Label: MONEY
+Entity: $9.5M, Label: MONEY
+Entity: $4.0M, Label: MONEY
+Entity: Homelessness Response, Label: PERSON
+Entity: Treasury, Label: ORG
+Entity: 10, Label: CARDINAL
+Entity: U.S. Department, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: Coronavirus State & Local Fiscal Recovery FundsHousing, Label: ORG
+Entity: Maricopa County, Label: GPE
+Entity: Arizona, Label: GPE
+Entity: $65.2M, Label: MONEY
+Entity: at least 120, Label: CARDINAL
+Entity: Qualified Census Tracts, Label: WORK_OF_ART
+Entity: Longer -Term Case Management & Self Support, Label: ORG
+Entity: $4.5M, Label: MONEY
+Entity: Eviction Prevention Legal Aid, Label: ORG
+Entity: $2.6M, Label: MONEY
+Entity: Application Assistance, Label: PERSON
+Entity: $3.9M, Label: MONEY
+Entity: Landlords, Label: NORP
+Entity: $11.6M, Label: MONEY
+Entity: one, Label: CARDINAL
+Entity: ERA, Label: ORG
+Entity: Rental and Utility Assistance, Label: WORK_OF_ART
+Entity: $0.8M, Label: MONEY
+Entity: Treasury, Label: ORG
+Entity: 8, Label: CARDINAL
+Entity: U.S. DEPARTMENT, Label: ORG
+Entity: TREASURY, Label: ORG
+Entity: nearly $11 billion, Label: MONEY
+Entity: 3,500, Label: CARDINAL
+Entity: the Inflation Reduction Act, Label: LAW
+Entity: the Creating Helpful Incentives, Label: ORG
+Entity: the Bipartisan Infrastructure Law, Label: LAW
+Entity: Detroit, Label: GPE
+Entity: Michigan, Label: GPE
+Entity: nearly $59 million, Label: MONEY
+Entity: COVID-19, Label: ORG
+Entity: The State of Maine, Label: ORG
+Entity: $1.5 million, Label: MONEY
+Entity: the 
+Maine Apprenticeship Program, Label: ORG
+Entity: Pima County, Label: GPE
+Entity: Arizona, Label: GPE
+Entity: over $5 million, Label: MONEY
+Entity: Virginia, Label: GPE
+Entity: $3 million, Label: MONEY
+Entity: Tribe, Label: ORG
+Entity: Salt Lake City, Label: GPE
+Entity: Utah, Label: GPE
+Entity: $1.5 million, Label: MONEY
+Entity: Travis County, Label: GPE
+Entity: Texas, Label: GPE
+Entity: more than $6 million, Label: MONEY
+Entity: U.S. DEPARTMENT, Label: ORG
+Entity: TREASURY, Label: ORG
+Entity: U.S. Department, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: Coronavirus State & Local Fiscal Recovery FundsState, Label: ORG
+Entity: $50.0M, Label: MONEY
+Entity: four, Label: CARDINAL
+Entity: Talent Pipeline Management, Label: ORG
+Entity: Tactic, Label: NORP
+Entity: 6, Label: CARDINAL
+Entity: Project Managers, Label: ORG
+Entity: 30, Label: CARDINAL
+Entity: Workforce, Label: ORG
+Entity: 2 -years, Label: DATE
+Entity: 3,790, Label: CARDINAL
+Entity: Idaho Launch, Label: ORG
+Entity: Idahoans, Label: NORP
+Entity: Tactic, Label: NORP
+Entity: 6,370, Label: CARDINAL
+Entity: December 31, Label: DATE
+Entity: 2023Next, Label: CARDINAL
+Entity: Next Steps Idaho, Label: ORG
+Entity: December 31, 2023, Label: DATE
+Entity: 1,000, Label: CARDINAL
+Entity: Idahoans, Label: NORP
+Entity: Next, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: 16, Label: CARDINAL
+Entity: U.S. Department, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: Coronavirus State & Local Fiscal Recovery FundsState, Label: ORG
+Entity: Connecticut, Label: GPE
+Entity: $70M, Label: MONEY
+Entity: the Office of Workforce Strategy, Label: ORG
+Entity: 5,500- 7,000, Label: CARDINAL
+Entity: the workforce5 Regional Workforce Development Boards, Label: ORG
+Entity: ConstructionAdditional Resources, Label: ORG
+Entity: 26, Label: CARDINAL
+Entity: Treasury, Label: ORG
+Entity: 10, Label: CARDINAL
+Entity: U.S. DEPARTMENT, Label: ORG
+Entity: TREASURY, Label: ORG
+Entity: $4.4 billion, Label: MONEY
+Entity: over 1,100, Label: CARDINAL
+Entity: Administration, Label: ORG
+Entity: State Small Business Credit Initiative, Label: ORG
+Entity: Cincinnati, Label: GPE
+Entity: Ohio, Label: GPE
+Entity: $1 million, Label: MONEY
+Entity: McHenry County, Label: GPE
+Entity: Illinois, Label: GPE
+Entity: more than $1 
+million, Label: MONEY
+Entity: ten, Label: CARDINAL
+Entity: the U.S. Department of 
+Commerce’s Baldridge Performance Excellence 
+Framework, Label: ORG
+Entity: Lee County, Label: GPE
+Entity: Florida, Label: GPE
+Entity: 250,000, Label: MONEY
+Entity: COVID-19, Label: PERSON
+Entity: Qualified Census Tracts, Label: ORG
+Entity: The State of Maryland, Label: ORG
+Entity: $70 million, Label: MONEY
+Entity: the Maryland Small, Label: ORG
+Entity: Sacramento County, Label: GPE
+Entity: California, Label: GPE
+Entity: nearly 
+$3 million, Label: MONEY
+Entity: COVID-19, Label: PERSON
+Entity: one, Label: CARDINAL
+Entity: one, Label: CARDINAL
+Entity: The Douglas Indian Association, Label: ORG
+Entity: U.S. DEPARTMENT, Label: ORG
+Entity: TREASURY, Label: ORG
+Entity: Tribal, Label: PERSON
+Entity: more than 2,600, Label: CARDINAL
+Entity: more than $24 billion, Label: MONEY
+Entity: almost 7,500, Label: CARDINAL
+Entity: the Biden-Harris Administration, Label: ORG
+Entity: the Capital Projects Fund, Label: ORG
+Entity: January 2022, Label: DATE
+Entity: Treasury, Label: ORG
+Entity: over $365 million, Label: MONEY
+Entity: Recognizing, Label: PERSON
+Entity: The State of Alabama, Label: ORG
+Entity: $51 million, Label: MONEY
+Entity: American Samoa, Label: ORG
+Entity: $10 million, Label: MONEY
+Entity: 100, Label: CARDINAL
+Entity: Carroll County, Label: GPE
+Entity: Maryland, Label: GPE
+Entity: $15 million, Label: MONEY
+Entity: COVID-19, Label: ORG
+Entity: Carroll County, Label: GPE
+Entity: the 12%, Label: PERCENT
+Entity: Carroll, Label: ORG
+Entity: 100/100, Label: CARDINAL
+Entity: Janesville, Label: GPE
+Entity: Wisconsin, Label: GPE
+Entity: over $2 million, Label: MONEY
+Entity: Rankin County, Label: GPE
+Entity: Mississippi, Label: GPE
+Entity: $26 million, Label: MONEY
+Entity: 45, Label: CARDINAL
+Entity: 12, Label: CARDINAL
+Entity: U.S. DEPARTMENT OF THE TREASURY, Label: ORG
+Entity: ANNIVERSARY REPORTCapital Projects Fund, Label: ORG
+Entity: The American Rescue Plan’s, Label: ORG
+Entity: Coronavirus Capital Projects Fund, Label: ORG
+Entity: $10 billion, Label: MONEY
+Entity: the Biden-Harris Administration’s, Label: FAC
+Entity: American, Label: NORP
+Entity: approximately $5 billion, Label: MONEY
+Entity: 34, Label: CARDINAL
+Entity: more than 1.4 million, Label: CARDINAL
+Entity: CPF, Label: ORG
+Entity: more than $38.5 million, Label: MONEY
+Entity: 231, Label: CARDINAL
+Entity: Tribal, Label: PRODUCT
+Entity: Tribal, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: the Federal Communications Commission, Label: ORG
+Entity: FCC, Label: ORG
+Entity: Affordable 
+Connectivity Program, Label: ORG
+Entity: ACP, Label: ORG
+Entity: up to $30, Label: MONEY
+Entity: up to $75, Label: MONEY
+Entity: Tribal, Label: PERSON
+Entity: Biden, Label: PERSON
+Entity: Harris, Label: PERSON
+Entity: Administration, Label: ORG
+Entity: 20, Label: CARDINAL
+Entity: more than 80%, Label: PERCENT
+Entity: U.S., Label: GPE
+Entity: no more than $30, Label: MONEY
+Entity: ACP, Label: ORG
+Entity: $10 billion, Label: MONEY
+Entity: an additional nearly $7.3 billion, Label: MONEY
+Entity: the Bipartisan Infrastructure Law, Label: LAW
+Entity: Treasury, Label: ORG
+Entity: a Memorandum of Understanding, Label: WORK_OF_ART
+Entity: May 12, 2022, Label: DATE
+Entity: FCC, Label: ORG
+Entity: the National Telecommunications and Information Administration, Label: ORG
+Entity: the Department 
+of Commerce, Label: ORG
+Entity: the Department of Agriculture, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: 2023, Label: DATE
+Entity: 13, Label: CARDINAL
+Entity: U.S. DEPARTMENT OF THE TREASURY, Label: ORG
+Entity: REPORTExamples, Label: CARDINAL
+Entity: Louisiana, Label: GPE
+Entity: $176.7 million, Label: MONEY
+Entity: 100%, Label: PERCENT
+Entity: Louisiana, Label: GPE
+Entity: approximately 25%, Label: PERCENT
+Entity: 88,500, Label: CARDINAL
+Entity: 25/3, Label: CARDINAL
+Entity: Virginia, Label: GPE
+Entity: $219.8 million, Label: MONEY
+Entity: 100%, Label: PERCENT
+Entity: 76,873, Label: CARDINAL
+Entity: approximately 28%, Label: PERCENT
+Entity: the Virginia Telecommunication Initiative, Label: ORG
+Entity: West Virginia, Label: GPE
+Entity: $136.3 million, Label: MONEY
+Entity: 100%, Label: PERCENT
+Entity: 20,000, Label: CARDINAL
+Entity: approximately 
+10%, Label: PERCENT
+Entity: three, Label: CARDINAL
+Entity: at least 25/3, Label: CARDINAL
+Entity: LEAD, Label: ORG
+Entity: the Major 
+Broadband Projects Strategies Program, Label: ORG
+Entity: MBPS, Label: ORG
+Entity: GigReady, Label: ORG
+Entity: three, Label: CARDINAL
+Entity: 14, Label: CARDINAL
+Entity: U.S. DEPARTMENT, Label: ORG
+Entity: TREASURY, Label: ORG
+Entity: Date
+Recipient Locations Served, Label: ORG
+Entity: Millions, Label: ORG
+Entity: Alabama, Label: GPE
+Entity: 191.9, Label: MONEY
+Entity: Arizona, Label: GPE
+Entity: 99.4, Label: MONEY
+Entity: Arkansas, Label: GPE
+Entity: 35,000 $, Label: MONEY
+Entity: 158, Label: MONEY
+Entity: Colorado, Label: GPE
+Entity: 170.8, Label: MONEY
+Entity: Connecticut, Label: GPE
+Entity: 10,000 $, Label: MONEY
+Entity: 41, Label: MONEY
+Entity: Florida, Label: GPE
+Entity: 248, Label: MONEY
+Entity: Georgia, Label: GPE
+Entity: 70,000 $250, Label: MONEY
+Entity: 253.68, Label: MONEY
+Entity: Indiana, Label: GPE
+Entity: 55,349 $, Label: MONEY
+Entity: 203, Label: MONEY
+Entity: 18,972 $, Label: MONEY
+Entity: 152, Label: MONEY
+Entity: Kansas, Label: GPE
+Entity: 21,300 $, Label: MONEY
+Entity: 84, Label: MONEY
+Entity: Kentucky, Label: GPE
+Entity: 45,000, Label: CARDINAL
+Entity: 182.8, Label: MONEY
+Entity: Louisiana, Label: GPE
+Entity: 177, Label: MONEY
+Entity: Maine, Label: GPE
+Entity: 110, Label: MONEY
+Entity: Maryland, Label: GPE
+Entity: 16,667 $, Label: MONEY
+Entity: 95, Label: MONEY
+Entity: Massachusetts, Label: GPE
+Entity: 145, Label: MONEY
+Entity: Michigan, Label: GPE
+Entity: 67,857 $250, Label: MONEY
+Entity: Minnesota, Label: GPE
+Entity: 127, Label: MONEY
+Entity: Missouri, Label: GPE
+Entity: 196.7, Label: MONEY
+Entity: Nebraska, Label: GPE
+Entity: 88, Label: MONEY
+Entity: Nevada, Label: GPE
+Entity: 40,187 $55.2, Label: MONEY
+Entity: New Hampshire, Label: GPE
+Entity: 24,000 $122, Label: MONEY
+Entity: New Mexico, Label: LOC
+Entity: 117, Label: MONEY
+Entity: North Carolina, Label: GPE
+Entity: 78,100, Label: CARDINAL
+Entity: 177.7, Label: MONEY
+Entity: 45, Label: MONEY
+Entity: South Carolina, Label: GPE
+Entity: 31,650, Label: CARDINAL
+Entity: 185.8, Label: MONEY
+Entity: Tennessee, Label: GPE
+Entity: 50,000 $185, Label: MONEY
+Entity: Texas, Label: GPE
+Entity: 363.8, Label: MONEY
+Entity: Utah, Label: GPE
+Entity: 3,080 $10, Label: MONEY
+Entity: Vermont, Label: GPE
+Entity: 13,818 $90, Label: MONEY
+Entity: Virginia, Label: GPE
+Entity: 76,873 $, Label: MONEY
+Entity: 220, Label: MONEY
+Entity: West Virgina, Label: LOC
+Entity: 20,000 $136, Label: MONEY
+Entity: Wisconsin, Label: GPE
+Entity: 8,000 $40, Label: MONEY
+Entity: 11,700 $, Label: MONEY
+Entity: 70.5, Label: MONEY
+Entity: 1,449,395 $5,041 15, Label: MONEY
+Entity: U.S. DEPARTMENT OF, Label: ORG
+Entity: TREASURY, Label: ORG
+Entity: Rental Assistance Program, Label: WORK_OF_ART
+Entity: millions, Label: CARDINAL
+Entity: December 2020, Label: DATE
+Entity: nearly one, Label: CARDINAL
+Entity: five, Label: CARDINAL
+Entity: One, Label: CARDINAL
+Entity: seven, Label: CARDINAL
+Entity: the next two months, Label: DATE
+Entity: The Emergency Rental Assistance, Label: WORK_OF_ART
+Entity: ERA, Label: ORG
+Entity: CDC, Label: ORG
+Entity: August 2021, Label: DATE
+Entity: 2021, Label: DATE
+Entity: 26%, Label: PERCENT
+Entity: the 10 
+months, Label: DATE
+Entity: Princeton University, Label: ORG
+Entity: 2022, Label: DATE
+Entity: Matthew Desmond, Label: PERSON
+Entity: Princeton University’s Eviction Lab, Label: ORG
+Entity: American, Label: NORP
+Entity: ERA, Label: ORG
+Entity: $46.55 billion, Label: MONEY
+Entity: Congress, Label: ORG
+Entity: the end of 2020, Label: DATE
+Entity: 21.55, Label: MONEY
+Entity: ERA2, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: millions, Label: CARDINAL
+Entity: tens of billions of dollars, Label: MONEY
+Entity: ERA, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: hundreds, Label: CARDINAL
+Entity: ERA, Label: ORG
+Entity: Princeton’s Eviction Lab, Label: ORG
+Entity: 2021, Label: DATE
+Entity: ERA, Label: ORG
+Entity: 1.36 million, Label: CARDINAL
+Entity: December 2022, Label: DATE
+Entity: ERA, Label: ORG
+Entity: over 10.3 million, Label: CARDINAL
+Entity: ERA, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: Flexibilities, Label: FAC
+Entity: Treasury, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: $4.3 billion, Label: MONEY
+Entity: Treasury, Label: ORG
+Entity: Hundreds, Label: CARDINAL
+Entity: ERA, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: 16, Label: CARDINAL
+Entity: U.S. DEPARTMENT OF, Label: ORG
+Entity: TREASURY, Label: ORG
+Entity: at least 180, Label: CARDINAL
+Entity: 36, Label: CARDINAL
+Entity: Treasury, Label: ORG
+Entity: ERA, Label: ORG
+Entity: Tribal, Label: PERSON
+Entity: ERA, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: two-thirds, Label: CARDINAL
+Entity: nearly 70 percent, Label: PERCENT
+Entity: almost half, Label: CARDINAL
+Entity: Treasury, Label: ORG
+Entity: Tribal ERA, Label: ORG
+Entity: ERA, Label: ORG
+Entity: Tribal, Label: PERSON
+Entity: Treasury, Label: ORG
+Entity: 2, Label: CARDINAL
+Entity: December 31, 2022, Label: DATE
+Entity: more than 3.6 million, Label: CARDINAL
+Entity: ERA, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: Pierce County, Label: GPE
+Entity: Washington, Label: GPE
+Entity: ERA, Label: ORG
+Entity: Clark County, Label: GPE
+Entity: more than 200, Label: CARDINAL
+Entity: 45, Label: CARDINAL
+Entity: Washington State, Label: ORG
+Entity: The State of Alaska, Label: ORG
+Entity: 15, Label: CARDINAL
+Entity: 148, Label: CARDINAL
+Entity: approximately one-third, Label: CARDINAL
+Entity: Alaskan, Label: NORP
+Entity: State, Label: ORG
+Entity: Washington, Label: GPE
+Entity: DC, Label: GPE
+Entity: Treasury, Label: ORG
+Entity: DC, Label: GPE
+Entity: Wichita, Label: GPE
+Entity: Kansas, Label: GPE
+Entity: 17, Label: CARDINAL
+Entity: U.S. DEPARTMENT OF THE TREASURY, Label: ORG
+Entity: The Homeowner Assistance Fund, Label: WORK_OF_ART
+Entity: the Biden-Harris Administration, Label: ORG
+Entity: nearly $10 billion, Label: MONEY
+Entity: Administration, Label: ORG
+Entity: Administration, Label: ORG
+Entity: COVID-19, Label: ORG
+Entity: early 2022, Label: DATE
+Entity: December 2022, Label: DATE
+Entity: over 230,000, Label: CARDINAL
+Entity: July, Label: DATE
+Entity: the end of September, Label: DATE
+Entity: the months, Label: DATE
+Entity: COVID-19, Label: PERSON
+Entity: 30%, Label: PERCENT
+Entity: Black Knight, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: Tribal, Label: PERSON
+Entity: 57%, Label: PERCENT
+Entity: 50%, Label: PERCENT
+Entity: 35%, Label: PERCENT
+Entity: Black, Label: ORG
+Entity: 20%, Label: PERCENT
+Entity: Latino, Label: ORG
+Entity: 64%, Label: PERCENT
+Entity: Treasury, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: the White House, Label: ORG
+Entity: Yellen, Label: PERSON
+Entity: Cabinet Secretaries, Label: ORG
+Entity: 18, Label: CARDINAL
+Entity: U.S. DEPARTMENT, Label: ORG
+Entity: TREASURY, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: the Department of Housing and Urban Development, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: September 30, 2026, Label: DATE
+Entity: Treasury, Label: ORG
+Entity: The State of California HAF Program, Label: ORG
+Entity: six, Label: CARDINAL
+Entity: 190,000, Label: CARDINAL
+Entity: Jan. 1, 2023, Label: DATE
+Entity: more than 200, Label: CARDINAL
+Entity: less than, Label: CARDINAL
+Entity: 15 
+minutes, Label: TIME
+Entity: Jan. 1, 2023, Label: DATE
+Entity: 88%, Label: PERCENT
+Entity: 5,676, Label: CARDINAL
+Entity: 91%, Label: PERCENT
+Entity: The State of, Label: GPE
+Entity: 211, Label: CARDINAL
+Entity: The State of Nevada’s, Label: ORG
+Entity: Nevada, Label: GPE
+Entity: 300%, Label: PERCENT
+Entity: three-month, Label: DATE
+Entity: July through September 2022).19, Label: DATE
+Entity: U.S. DEPARTMENT, Label: ORG
+Entity: TREASURY, Label: ORG
+Entity: ANNIVERSARY REPORTState Small Business Credit, Label: ORG
+Entity: The State Small Business Credit Initiative, Label: ORG
+Entity: SSBCI, Label: ORG
+Entity: the American Rescue 
+Plan, Label: ORG
+Entity: nearly $10 billion, Label: MONEY
+Entity: D.C., Label: GPE
+Entity: Tribal, Label: PERSON
+Entity: 2010, Label: DATE
+Entity: SSBCI, Label: ORG
+Entity: COVID-19, Label: ORG
+Entity: SSBCI, Label: ORG
+Entity: Tribes, Label: PERSON
+Entity: SSBCI, Label: ORG
+Entity: the Biden Administration’s, Label: ORG
+Entity: 10.5 million, Label: CARDINAL
+Entity: 2021, Label: DATE
+Entity: 2022, Label: DATE
+Entity: the Census Bureau, Label: ORG
+Entity: SSBCI, Label: ORG
+Entity: tens of billions of dollars, Label: MONEY
+Entity: SSBCI, Label: ORG
+Entity: Tribal Governments, Label: PERSON
+Entity: SSBCI, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: 96%, Label: PERCENT
+Entity: Treasury, Label: ORG
+Entity: 200, Label: CARDINAL
+Entity: over $580 million, Label: MONEY
+Entity: SSBCI, Label: ORG
+Entity: SSBCI, Label: ORG
+Entity: up to $10, Label: MONEY
+Entity: 1, Label: MONEY
+Entity: SSBCI, Label: ORG
+Entity: tens of billions of dollars, Label: MONEY
+Entity: 2030, Label: DATE
+Entity: SSBCI, Label: ORG
+Entity: Minnesota’s Department of Employment and Economic Development, Label: ORG
+Entity: Automation Loan Participation Program, Label: ORG
+Entity: SSBCI, Label: ORG
+Entity: Minnesota, Label: GPE
+Entity: ALPP, Label: ORG
+Entity: 20, Label: CARDINAL
+Entity: U.S. DEPARTMENT, Label: ORG
+Entity: TREASURY, Label: ORG
+Entity: The Federal Reserve Banks, Label: ORG
+Entity: 2021, Label: DATE
+Entity: only 13%, Label: PERCENT
+Entity: 20%, Label: PERCENT
+Entity: Hispanic, Label: NORP
+Entity: 40%, Label: PERCENT
+Entity: SSBCI, Label: ORG
+Entity: SSBCI, Label: ORG
+Entity: SSBCI, Label: ORG
+Entity: $2.5 billion, Label: MONEY
+Entity: $1 billion, Label: MONEY
+Entity: SSBCI, Label: ORG
+Entity: over $700 million, Label: MONEY
+Entity: Tribal, Label: PERSON
+Entity: hundreds, Label: CARDINAL
+Entity: Tribal, Label: PERSON
+Entity: 2010, Label: DATE
+Entity: 2017, Label: DATE
+Entity: Tribal, Label: PERSON
+Entity: Treasury, Label: ORG
+Entity: SSBCI, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: SSBCI, Label: ORG
+Entity: SSBCI, Label: ORG
+Entity: hundreds of millions of dollars, Label: MONEY
+Entity: SSBCI, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: $300 million, Label: MONEY
+Entity: $200 million, Label: MONEY
+Entity: D.C., Label: GPE
+Entity: Tribal, Label: PERSON
+Entity: SSBCI, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: $100 
+million, Label: MONEY
+Entity: the Minority Business Development Agency, Label: ORG
+Entity: the Department of Commerce, Label: ORG
+Entity: SSBCI, Label: ORG
+Entity: $200 million, Label: MONEY
+Entity: SSBCI, Label: ORG
+Entity: SSBCI, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: December 2022, Label: DATE
+Entity: Treasury, Label: ORG
+Entity: $8.38 billion, Label: MONEY
+Entity: 170, Label: CARDINAL
+Entity: the Emergency Capital Investment Program, Label: ORG
+Entity: the CDFI Equitable Recovery Program, Label: ORG
+Entity: approximately $1.75 billion, Label: MONEY
+Entity: 19, Label: CARDINAL
+Entity: Treasury, Label: ORG
+Entity: U.S. DEPARTMENT, Label: ORG
+Entity: TREASURY, Label: ORG
+Entity: SECOND ANNIVERSARY REPORTTreasury, Label: DATE
+Entity: 51, Label: CARDINAL
+Entity: 56, Label: CARDINAL
+Entity: 96%, Label: PERCENT
+Entity: Tribal, Label: PERSON
+Entity: the coming 
+months, Label: DATE
+Entity: SSBCI, Label: ORG
+Entity: SSBCI, Label: ORG
+Entity: Engaging Underserved Business Owners, Label: ORG
+Entity: Utah, Label: GPE
+Entity: Utah, Label: GPE
+Entity: Utah, Label: GPE
+Entity: SSBCI, Label: ORG
+Entity: Utah, Label: GPE
+Entity: Capital Access Program, Label: ORG
+Entity: the Loan Participation Program, Label: ORG
+Entity: Montana, Label: GPE
+Entity: Department of Commerce, Label: ORG
+Entity: the Montana Board of Investment, Label: ORG
+Entity: MBIV, Label: ORG
+Entity: MBIV, Label: ORG
+Entity: Community 
+Development Financial Institutions, Label: ORG
+Entity: Vermont, Label: GPE
+Entity: Vermont, Label: GPE
+Entity: Enabling Diverse Venture Capital Managers, Label: ORG
+Entity: Pennsylvania, Label: GPE
+Entity: October 2022, Label: DATE
+Entity: Pennsylvania, Label: GPE
+Entity: first, Label: ORDINAL
+Entity: SSBCI, Label: ORG
+Entity: 22, Label: CARDINAL
+Entity: U.S. DEPARTMENT, Label: ORG
+Entity: TREASURY, Label: ORG
+Entity: Working Families, Label: ORG
+Entity: Child Tax Credit, Label: WORK_OF_ART
+Entity: Earned Income Tax Credit, Label: ORG
+Entity: Child and Dependent Care Tax Credit, Label: WORK_OF_ART
+Entity: monthly, Label: DATE
+Entity: Child Tax Credit, Label: WORK_OF_ART
+Entity: 38 million, Label: CARDINAL
+Entity: 62 million, Label: CARDINAL
+Entity: monthly, Label: DATE
+Entity: the Census Bureau, Label: ORG
+Entity: last year, Label: DATE
+Entity: Child Tax Credit, Label: WORK_OF_ART
+Entity: 46%, Label: PERCENT
+Entity: 2021, Label: DATE
+Entity: Congress, Label: ORG
+Entity: the Child Tax Credit, Label: ORG
+Entity: ARP, Label: ORG
+Entity: the Child Tax Credit, Label: ORG
+Entity: Puerto Rico, Label: GPE
+Entity: Puerto Rico, Label: GPE
+Entity: fewer than three, Label: CARDINAL
+Entity: the Child Tax Credit, Label: ORG
+Entity: 200,000, Label: CARDINAL
+Entity: Puerto Rico, Label: GPE
+Entity: Child Tax Credit, Label: WORK_OF_ART
+Entity: 2022, Label: DATE
+Entity: the previous year, Label: DATE
+Entity: Puerto Rico, Label: GPE
+Entity: the United States, Label: GPE
+Entity: Millions of Workers, Label: ORG
+Entity: Families, Label: ORG
+Entity: millions, Label: CARDINAL
+Entity: over 200, Label: CARDINAL
+Entity: almost 50 years, Label: DATE
+Entity: at least 2051, Label: CARDINAL
+Entity: an estimated two to three million, Label: CARDINAL
+Entity: 680,000, Label: CARDINAL
+Entity: the coming decades, Label: DATE
+Entity: tens of thousands, Label: CARDINAL
+Entity: 23, Label: CARDINAL
+Entity: U.S. DEPARTMENT OF THE TREASURY, Label: ORG
+Entity: The American Rescue Plan, Label: ORG
+Entity: COVID-19, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: the past two years, Label: DATE
+Entity: Treasury, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: Treasury, Label: ORG
+Entity: the Inflation Reduction Act, Label: LAW
+Entity: the last two years, Label: DATE
+Entity: the American Rescue Plan, Label: ORG
+Entity: the months and years ahead, Label: DATE
+
+=== Tokenization and POS tagging ===
+Token: March, POS: PROPN
+Token: 2023, POS: NUM
+Token: 
+, POS: SPACE
+Token: AMERICAN, POS: PROPN
+Token: RESCUE, POS: PROPN
+Token: PLAN, POS: NOUN
+Token:  
+, POS: SPACE
+Token: TWO, POS: NUM
+Token: YEARS, POS: NOUN
+Token: IN, POS: ADP
+Token: :, POS: PUNCT
+Token:  
+, POS: SPACE
+Token: THE, POS: DET
+Token: AMERICAN, POS: PROPN
+Token: RESCUE, POS: PROPN
+Token: PLAN, POS: PROPN
+Token: ACT, POS: PROPN
+Token: ’S, POS: PROPN
+Token: HISTORIC, POS: PROPN
+Token:  
+, POS: SPACE
+
+=== Sentences ===
+March 2023
+AMERICAN RESCUE PLAN  
+TWO YEARS IN:  
+THE AMERICAN RESCUE PLAN ACT’S HISTORIC  
+INVESTMENTS IN A STRONGER ECONOMIC FUTURE
+U.S. DEPARTMENT OF THE TREASURY  
+OFFICE OF RECOVERY PROGRAMS:  AMERICAN RESCUE PLAN SECOND ANNIVERSARY REPORTCONTENTS
+Executive Summary  ....................................................................................
+1
+State and Local Fiscal Recovery Funds  ...............................................
+3
+Capital Projects Fund  .................................................................................
+12
+Emergency Rental Assistance Program  .............................................. 15
+Homeowner Assistance Fund  .................................................................
+17
+State Small Business Credit Initiative  ................................................. 19
+Historic Tax Relief for Working Families  
+and Record Low Child Poverty  ..............................................................

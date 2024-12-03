@@ -32,16 +32,17 @@ from PyPDF2 import PdfReader
 import spacy
 from spacytextblob.spacytextblob import SpacyTextBlob
 
+import warnings 
+warnings.filterwarnings('ignore')
+alt.renderers.enable("png")
 ```
 
 ### What is CARES Act
 # data was from "https://home.treasury.gov/system/files/136/Two-Year-ARP-Anniversary-Report.pdf"
 ```{python}
-from PyPDF2 import PdfReader
-import spacy
-from spacytextblob.spacytextblob import SpacyTextBlob
 
-pdf_path = '/Users/wuzhenhan/Desktop/final-project-xy-wz/data/Extra credit.pdf'
+pdf_path = '/Users/cynthia/Desktop/final-project-xy-wz/data/Extra credit.pdf'
+output_path = '/Users/cynthia/Desktop/final-project-xy-wz/data/nlp_analysis.txt'
 
 reader = PdfReader(pdf_path)
 text = ""
@@ -59,33 +60,31 @@ nlp.add_pipe('spacytextblob')
 
 doc = nlp(text)
 
-print("\n=== Sentiment Analysis ===")
-print(f"Overall Polarity: {doc._.blob.polarity}")
-print(f"Overall Subjectivity: {doc._.blob.subjectivity}")
+with open(output_path, 'w', encoding='utf-8') as f:
+    f.write("\n=== Sentiment Analysis ===\n")
+    f.write(f"Overall Polarity: {doc._.blob.polarity}\n")
+    f.write(f"Overall Subjectivity: {doc._.blob.subjectivity}\n")
 
-print("\nSentence-level Sentiment Analysis:")
-for sent in doc.sents:
-    print(f"Sentence: {sent.text}")
-    print(f"Polarity: {sent._.blob.polarity}")
-    print(f"Subjectivity: {sent._.blob.subjectivity}")
-    print()
+    f.write("\nSentence-level Sentiment Analysis:\n")
+    for sent in doc.sents:
+        f.write(f"Sentence: {sent.text}\n")
+        f.write(f"Polarity: {sent._.blob.polarity}\n")
+        f.write(f"Subjectivity: {sent._.blob.subjectivity}\n")
+        f.write("\n")
 
-print("\n=== Named Entity Recognition (NER) ===")
-for ent in doc.ents:
-    print(f"Entity: {ent.text}, Label: {ent.label_}")
+    f.write("\n=== Named Entity Recognition (NER) ===\n")
+    for ent in doc.ents:
+        f.write(f"Entity: {ent.text}, Label: {ent.label_}\n")
 
-print("\n=== Tokenization and POS tagging ===")
-for token in doc[:20]:
-    print(f"Token: {token.text}, POS: {token.pos_}")
+    f.write("\n=== Tokenization and POS tagging ===\n")
+    for token in doc[:20]:
+        f.write(f"Token: {token.text}, POS: {token.pos_}\n")
 
-print("\n=== Sentences ===")
-sentences = list(doc.sents)
-for sent in sentences[:5]:
-    print(sent)
+    f.write("\n=== Sentences ===\n")
+    sentences = list(doc.sents)
+    for sent in sentences[:5]:
+        f.write(f"{sent}\n")
 
-import warnings 
-warnings.filterwarnings('ignore')
-alt.renderers.enable("png")
 
 ```
 
@@ -152,8 +151,8 @@ chart = alt.Chart(state_funding).mark_bar(color='skyblue').encode(
     tooltip=['State', 'Award Funding']
 ).properties(
     title='Total Funding Amount by State',
-    width=600,
-    height=500
+    width=400,
+    height=300
 ).configure_axis(
     labelAngle=0
 )
@@ -191,8 +190,8 @@ chart = alt.layer(
 ).resolve_scale(
     y='independent'
 ).properties(
-    width=800,
-    height=400
+    width=400,
+    height=300
 )
 
 chart.show()
