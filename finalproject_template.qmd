@@ -29,6 +29,10 @@ from vega_datasets import data
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 
+import warnings 
+warnings.filterwarnings('ignore')
+alt.renderers.enable("png")
+
 ```
 
 ### Merge Data 
@@ -179,7 +183,7 @@ geojson_data = json.loads(geojson)
 
 states = alt.Data(values=geojson_data['features'])
 
-unemployment_chart = alt.Chart(states).mark_geoshape(
+unemployment_chart_2024 = alt.Chart(states).mark_geoshape(
     stroke='black',
     strokeWidth=1
 ).encode(
@@ -193,13 +197,14 @@ unemployment_chart = alt.Chart(states).mark_geoshape(
 ).project(
     type='albersUsa'
 ).properties(
-    width=500,
-    height=500,
+    width=400,
+    height=300,
     title='Unemployment Rate by State (2024)'
 )
 
-unemployment_chart.display()
+unemployment_chart_2024.display()
 
+# Top 3 states with highest unemployment rate
 top_3_states = gdf_merged.nlargest(3, 'Rate_2024')[['NAME', 'Rate_2024']]
 print(top_3_states)
 
@@ -232,8 +237,8 @@ unemployment_chart_2023 = alt.Chart(states).mark_geoshape(
 ).project(
     type='albersUsa'
 ).properties(
-    width=500,
-    height=500,
+    width=400,
+    height=300,
     title='Unemployment Rate by State (2023)'
 )
 
@@ -273,8 +278,8 @@ unemployment_chart_2022 = alt.Chart(states_2022).mark_geoshape(
 ).project(
     type='albersUsa'  
 ).properties(
-    width=500,
-    height=500,
+    width=400,
+    height=300,
     title='Unemployment Rate by State (2022)'
 )
 
@@ -313,8 +318,8 @@ unemployment_chart_2021 = alt.Chart(states_2021).mark_geoshape(
 ).project(
     type='albersUsa'
 ).properties(
-    width=500,
-    height=500,
+    width=400,
+    height=300,
     title='Unemployment Rate by State (2021)'
 )
 
@@ -353,8 +358,8 @@ unemployment_chart_2020 = alt.Chart(states_2020).mark_geoshape(
 ).project(
     type='albersUsa'
 ).properties(
-    width=500,
-    height=500,
+    width=400,
+    height=300,
     title='Unemployment Rate by State (2020)'
 )
 
@@ -421,8 +426,8 @@ unemployment_chart_2018 = alt.Chart(states_2018).mark_geoshape(
 ).project(
     type='albersUsa'
 ).properties(
-    width=500,
-    height=500,
+    width=400,
+    height=300,
     title='Unemployment Rate by State (2018)'
 )
 
@@ -436,56 +441,28 @@ print(top_3_states_2018)
 
 ```{python}
 
-gdf_merged_2024 = gdf_states.merge(
-    unemployment_data_filtered, how='left', left_on='NAME', right_on='State').copy()
-gdf_merged_2024['Rate_2024'] = gdf_merged_2024['Rate_2024'].fillna(0)
-
-geojson_2024 = gdf_merged_2024.to_json()
-geojson_data_2024 = json.loads(geojson_2024)
-
-states_2024 = alt.Data(values=geojson_data_2024['features'])
-
-unemployment_chart_2024 = alt.Chart(states_2024).mark_geoshape(
-    stroke='black',
-    strokeWidth=1
-).encode(
-    color=alt.Color('properties.Rate_2024:Q',
-                    scale=alt.Scale(domain=[0, 10], scheme='orangered'),
-                    title='Unemployment Rate in 2024 (%)'),
-    tooltip=[
-        alt.Tooltip('properties.NAME:N', title='State'),
-        alt.Tooltip('properties.Rate_2024:Q', title='Unemployment Rate (%)')
-    ]
-).project(
-    type='albersUsa'
-).properties(
-    width=500,
-    height=500,
-    title='Unemployment Rate by State (2024)'
-)
-
 output_path = '/Users/cynthia/Desktop/final-project-xy-wz/picture/dynamic_1'
-os.makedirs(output_path, exist_ok=True)
 
 unemployment_chart_2018.save(os.path.join(
-    output_path, 'unemployment_rate_2018.html'))
+    output_path, 'unemployment_rate_2018.png'))
 unemployment_chart_2019.save(os.path.join(
-    output_path, 'unemployment_rate_2019.html'))
+    output_path, 'unemployment_rate_2019.png'))
 unemployment_chart_2020.save(os.path.join(
-    output_path, 'unemployment_rate_2020.html'))
+    output_path, 'unemployment_rate_2020.png'))
 unemployment_chart_2021.save(os.path.join(
-    output_path, 'unemployment_rate_2021.html'))
+    output_path, 'unemployment_rate_2021.png'))
 unemployment_chart_2022.save(os.path.join(
-    output_path, 'unemployment_rate_2022.html'))
+    output_path, 'unemployment_rate_2022.png'))
 unemployment_chart_2023.save(os.path.join(
-    output_path, 'unemployment_rate_2023.html'))
+    output_path, 'unemployment_rate_2023.png'))
 unemployment_chart_2024.save(os.path.join(
-    output_path, 'unemployment_rate_2024.html'))
+    output_path, 'unemployment_rate_2024.png'))
 
 
 ```
 
 # b. Create the dynamic maps of unemployment rates by state in app.py file
+# For a detailed view of how these figures were generated, please refer to the code in app.py. The dynamic trends presented here are the final output of our detailed data processing and visualization pipeline. 
 
 ```{python}
 
@@ -521,11 +498,10 @@ plt.show()
 
 ```
 
->>>>>>> xyz
 # 4. Dynamic Trends of Real GDP and Unemployment Rate Under CARES Act 
+# For a detailed view of how these figures were generated, please refer to the code in app.py. The dynamic trends presented here are the final output of our detailed data processing and visualization pipeline. 
 
 ```{python}
-# For a detailed view of how these figures were generated, please refer to the code in app.py. The dynamic trends presented here are the final output of our detailed data processing and visualization pipeline. 
 
 dynamic_2_path = '/Users/cynthia/Desktop/final-project-xy-wz/picture/dynamic_2'
 
