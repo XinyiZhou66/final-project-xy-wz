@@ -3,9 +3,9 @@ import geopandas as gpd
 import matplotlib.pyplot as plt
 from shiny import App, ui, render
 
-file_path_unemployment = '/Users/wuzhenhan/Desktop/final-project-xy-wz/data/anunemp.csv'
-shapefile_path = '/Users/wuzhenhan/Desktop/final-project-xy-wz/cb_2018_us_state_500k/cb_2018_us_state_500k.shp'
-file_path_gdp_unemployment = '/Users/wuzhenhan/Desktop/final-project-xy-wz/data/merged_data.csv'
+file_path_unemployment = '/Users/cynthia/Desktop/final-project-xy-wz/data/anunemp.csv'
+shapefile_path = '/Users/cynthia/Desktop/final-project-xy-wz/data/cb_2018_us_state_500k/cb_2018_us_state_500k.shp'
+file_path_gdp_unemployment = '/Users/cynthia/Desktop/final-project-xy-wz/data/merged_data.csv'
 
 unemployment_data = pd.read_csv(file_path_unemployment)
 unemployment_data_filtered = unemployment_data.loc[unemployment_data['State'] != "United States"].copy()

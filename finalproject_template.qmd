@@ -244,7 +244,7 @@ unemployment_data_filtered = unemployment_data.loc[unemployment_data['State'] !=
 unemployment_data_filtered['State'] = unemployment_data_filtered['State'].str.strip(
 ).str.title()
 
-data_path_shp = '/Users/cynthia/Desktop/final-project-xy-wz/cb_2018_us_state_500k'
+data_path_shp = '/Users/cynthia/Desktop/final-project-xy-wz/data/cb_2018_us_state_500k'
 shapefile_path = os.path.join(data_path_shp, 'cb_2018_us_state_500k.shp')
 gdf_states = gpd.read_file(shapefile_path)
 
@@ -518,7 +518,7 @@ print(top_3_states_2018)
 
 ```{python}
 
-output_path = '/Users/cynthia/Desktop/final-project-xy-wz/picture/dynamic_1'
+output_path = '/Users/cynthia/Desktop/final-project-xy-wz/shiny-app/picture/dynamic_1'
 
 unemployment_chart_2018.save(os.path.join(
     output_path, 'unemployment_rate_2018.png'))
@@ -543,7 +543,7 @@ unemployment_chart_2024.save(os.path.join(
 
 ```{python}
 
-dynamic_1_path = '/Users/cynthia/Desktop/final-project-xy-wz/picture/dynamic_1'
+dynamic_1_path = '/Users/cynthia/Desktop/final-project-xy-wz/shiny-app/picture/dynamic_1'
 
 image_path_1 = os.path.join(dynamic_1_path, 'p1.png')
 
@@ -583,7 +583,7 @@ plt.show()
 
 ```{python}
 
-dynamic_2_path = '/Users/cynthia/Desktop/final-project-xy-wz/picture/dynamic_2'
+dynamic_2_path = '/Users/cynthia/Desktop/final-project-xy-wz/shiny-app/picture/dynamic_2'
 
 screenshot_path_1 = os.path.join(dynamic_2_path, 'All_period.png')
 screenshot_path_2 = os.path.join(dynamic_2_path, 'Pre_Cares.png')
