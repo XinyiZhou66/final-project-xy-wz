@@ -34,6 +34,8 @@ For future work, incorporating econometric models could better help isolate the 
 # Plot 1.1
 
 ```{python}
+#| echo: false
+
 import os
 import matplotlib.image as mpimg
 import matplotlib.pyplot as plt
@@ -54,6 +56,8 @@ show_image(Plot_path_1_1)
 # Plot 1.2 
 
 ```{python}
+#| echo: false
+
 Plot_path_1_2 = os.path.join(plot_path, 'Plot_1.2.png')
 
 def show_image(image_path, figsize=(8, 6)):
@@ -69,6 +73,8 @@ show_image(Plot_path_1_2)
 # Plot 2.1
 
 ```{python}
+#| echo: false
+
 Plot_path_2_1 = os.path.join(plot_path, 'Plot_2.1.png')
 
 def show_image(image_path, figsize=(8, 6)):
@@ -84,6 +90,8 @@ show_image(Plot_path_2_1)
 # Plot 2.2
 
 ```{python}
+#| echo: false
+
 Plot_path_2_2 = os.path.join(plot_path, 'Plot_2.2.png')
 
 def show_image(image_path, figsize=(8, 6)):
@@ -99,6 +107,8 @@ show_image(Plot_path_2_2)
 
 # Plot 3.1
 ```{python}
+#| echo: false
+
 Plot_path_3_1 = os.path.join(plot_path, 'Plot_3.1.png')
 
 def show_image(image_path, figsize=(8, 6)):
@@ -114,6 +124,8 @@ show_image(Plot_path_3_1)
 # Plot 3.2
 
 ```{python}
+#| echo: false
+
 Plot_path_3_2 = os.path.join(plot_path, 'Plot_3.2.png')
 
 def show_image(image_path, figsize=(8, 6)):
