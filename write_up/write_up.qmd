@@ -2,7 +2,7 @@
 title: "PPHA 30538 1- Final Project Writeup"
 author: "Xinyi Zhou, and Wuzhen Han"
 date: 12/5/2024
-format: html
+format: pdf
 ---
 
 Group Members: 
@@ -43,7 +43,7 @@ import matplotlib.pyplot as plt
 plot_path = '/Users/cynthia/Desktop/final-project-xy-wz/write_up/pictures'
 Plot_path_1_1 = os.path.join(plot_path, 'Plot_1.1.png')
 
-def show_image(image_path, figsize=(8, 6)):
+def show_image(image_path, figsize=(6, 6)):
     img = mpimg.imread(image_path)
     plt.figure(figsize=figsize)
     plt.imshow(img)
